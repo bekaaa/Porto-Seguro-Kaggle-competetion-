@@ -50,8 +50,6 @@ class xgb_tuner :
 		'''
 		# ------- emptying some variables ----------------
 		best_sc = -1
-		self.best_score = -1
-		self.cvfolds = None
 		#----------------------------------------
 		if self.__logging : log.msg('**** Starting grid-call search *********')
 
@@ -108,8 +106,6 @@ class xgb_tuner :
 			self.params[p] = v
 
 		t = np.datetime64('now')
-		self.cvfolds = None
-		self.best_score = -1
 
 		cv_results = xgb.cv(self.params, self.__dtrain,
 						num_boost_round=self.__rounds,
@@ -162,9 +158,12 @@ class xgb_tuner :
 	#*************************************************************************************
 	def __GetBestCVFolds(self) :
 		'''passes to xgb.cv as a callback'''
-		#def init(env) :
-		#	self.best_score = -1
+		def init(env) :
+			self.best_score = -1
+			self.cvfolds = None
 		def callback(env) :
+			if env.iteration == env.begin_iteration :
+				init(env)
 			current_score = env.evaluation_result_list[1][1]
 			if current_score > self.best_score :
 				self.best_score = current_score
