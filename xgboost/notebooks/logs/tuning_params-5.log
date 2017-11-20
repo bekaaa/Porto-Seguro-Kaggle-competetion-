@@ -1,0 +1,24 @@
+11-18 18:14 INFO: ------------------initialized-----------------
+11-18 18:14 INFO: **** Grid Start *********
+11-18 18:14 INFO: CV with max_delta_step = 0, scale_pos_weight = 1, 
+11-18 18:16 INFO: train score : 0.611221, fold-dev score : 0.770392, val score : 0.19384, n_trees : 9,step time : 1.6 minutes
+11-18 18:16 INFO: ****** End of grid *********
+11-18 18:16 INFO: best val score : 0.19384, best test score : 0.770392, best train score : 0.611221, best n_trees = 9, best max_delta_step = 0, best scale_pos_weight = 1, 
+11-18 18:20 INFO: ------------------initialized-----------------
+11-18 18:20 INFO: **** Grid Start *********
+11-18 18:20 INFO: CV with max_delta_step = 0, scale_pos_weight = 1, 
+11-18 18:21 INFO: train score : 0.605971, fold-dev score : 0.783157, val score : 0.211052, n_trees : 9,step time : 0.8 minutes
+11-18 18:21 INFO: ****** End of grid *********
+11-18 18:21 INFO: best val score : 0.211052, best test score : 0.783157, best train score : 0.605971, best n_trees = 9, best max_delta_step = 0, best scale_pos_weight = 1, 
+11-18 18:23 INFO: ------------------initialized-----------------
+11-18 18:23 INFO: **** Grid Start *********
+11-18 18:23 INFO: CV with max_delta_step = 0, scale_pos_weight = 1, 
+11-18 18:24 INFO: train score : 0.605971, fold-dev score : 0.783157, val score : 0.211052, n_trees : 9,step time : 0.7 minutes
+11-18 18:24 INFO: ****** End of grid *********
+11-18 18:24 INFO: best val score : 0.211052, best test score : 0.783157, best train score : 0.605971, best n_trees = 9, best max_delta_step = 0, best scale_pos_weight = 1, 
+11-18 18:26 INFO: ------------------initialized-----------------
+11-18 18:26 INFO: **** Grid Start *********
+11-18 18:26 INFO: CV with max_delta_step = 0, scale_pos_weight = 1, 
+11-18 18:29 INFO: train score : 0.607786, fold-dev score : 0.82735, val score : 0.218161, n_trees : 19,step time : 3.1 minutes
+11-18 18:29 INFO: ****** End of grid *********
+11-18 18:29 INFO: best val score : 0.218161, best test score : 0.82735, best train score : 0.607786, best n_trees = 19, best max_delta_step = 0, best scale_pos_weight = 1, 

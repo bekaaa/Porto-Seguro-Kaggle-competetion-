@@ -1,0 +1,1495 @@
+11-12 12:37 INFO: ------------------initialized-----------------
+11-12 12:37 INFO: **** Grid Start *********
+11-12 12:37 INFO: CV with max_depth = 1.000000, and min_child_weight = 1.000000
+11-12 12:37 INFO: train score : 0.579, test score : 1.000, n_trees : 30, step time : 0.000000 minutes
+11-12 12:37 INFO: CV with max_depth = 1.000000, and min_child_weight = 3.000000
+11-12 12:37 INFO: train score : 0.550, test score : 0.727, n_trees : 1, step time : 0.000000 minutes
+11-12 12:37 INFO: CV with max_depth = 1.000000, and min_child_weight = 5.000000
+11-12 12:37 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.016667 minutes
+11-12 12:37 INFO: CV with max_depth = 1.000000, and min_child_weight = 7.000000
+11-12 12:37 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 12:37 INFO: CV with max_depth = 1.000000, and min_child_weight = 9.000000
+11-12 12:37 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 12:37 INFO: CV with max_depth = 3.000000, and min_child_weight = 1.000000
+11-12 12:37 INFO: train score : 0.614, test score : 1.000, n_trees : 28, step time : 0.000000 minutes
+11-12 12:37 INFO: CV with max_depth = 3.000000, and min_child_weight = 3.000000
+11-12 12:37 INFO: train score : 0.550, test score : 0.727, n_trees : 1, step time : 0.000000 minutes
+11-12 12:37 INFO: CV with max_depth = 3.000000, and min_child_weight = 5.000000
+11-12 12:37 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 12:37 INFO: CV with max_depth = 3.000000, and min_child_weight = 7.000000
+11-12 12:37 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.016667 minutes
+11-12 12:37 INFO: CV with max_depth = 3.000000, and min_child_weight = 9.000000
+11-12 12:37 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 12:37 INFO: CV with max_depth = 5.000000, and min_child_weight = 1.000000
+11-12 12:37 INFO: train score : 0.614, test score : 1.000, n_trees : 28, step time : 0.000000 minutes
+11-12 12:37 INFO: CV with max_depth = 5.000000, and min_child_weight = 3.000000
+11-12 12:37 INFO: train score : 0.550, test score : 0.727, n_trees : 1, step time : 0.000000 minutes
+11-12 12:37 INFO: CV with max_depth = 5.000000, and min_child_weight = 5.000000
+11-12 12:37 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.016667 minutes
+11-12 12:37 INFO: CV with max_depth = 5.000000, and min_child_weight = 7.000000
+11-12 12:37 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 12:37 INFO: CV with max_depth = 5.000000, and min_child_weight = 9.000000
+11-12 12:37 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 12:37 INFO: CV with max_depth = 7.000000, and min_child_weight = 1.000000
+11-12 12:37 INFO: train score : 0.614, test score : 1.000, n_trees : 28, step time : 0.000000 minutes
+11-12 12:37 INFO: CV with max_depth = 7.000000, and min_child_weight = 3.000000
+11-12 12:37 INFO: train score : 0.550, test score : 0.727, n_trees : 1, step time : 0.000000 minutes
+11-12 12:37 INFO: CV with max_depth = 7.000000, and min_child_weight = 5.000000
+11-12 12:37 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 12:37 INFO: CV with max_depth = 7.000000, and min_child_weight = 7.000000
+11-12 12:37 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.016667 minutes
+11-12 12:37 INFO: CV with max_depth = 7.000000, and min_child_weight = 9.000000
+11-12 12:37 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 12:37 INFO: CV with max_depth = 9.000000, and min_child_weight = 1.000000
+11-12 12:37 INFO: train score : 0.614, test score : 1.000, n_trees : 28, step time : 0.000000 minutes
+11-12 12:37 INFO: CV with max_depth = 9.000000, and min_child_weight = 3.000000
+11-12 12:37 INFO: train score : 0.550, test score : 0.727, n_trees : 1, step time : 0.000000 minutes
+11-12 12:37 INFO: CV with max_depth = 9.000000, and min_child_weight = 5.000000
+11-12 12:37 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 12:37 INFO: CV with max_depth = 9.000000, and min_child_weight = 7.000000
+11-12 12:37 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 12:37 INFO: CV with max_depth = 9.000000, and min_child_weight = 9.000000
+11-12 12:38 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.016667 minutes
+11-12 12:38 INFO: ****** End of grid *********
+11-12 12:39 INFO: **** Grid Start *********
+11-12 12:39 INFO: CV with max_depth = 1.000000, and min_child_weight = 1.000000
+11-12 12:39 INFO: train score : 0.579, test score : 1.000, n_trees : 30, step time : 0.000000 minutes
+11-12 12:39 INFO: CV with max_depth = 1.000000, and min_child_weight = 3.000000
+11-12 12:39 INFO: train score : 0.550, test score : 0.727, n_trees : 1, step time : 0.000000 minutes
+11-12 12:39 INFO: CV with max_depth = 1.000000, and min_child_weight = 5.000000
+11-12 12:39 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 12:39 INFO: CV with max_depth = 1.000000, and min_child_weight = 7.000000
+11-12 12:39 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 12:39 INFO: CV with max_depth = 1.000000, and min_child_weight = 9.000000
+11-12 12:39 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 12:39 INFO: CV with max_depth = 3.000000, and min_child_weight = 1.000000
+11-12 12:39 INFO: train score : 0.614, test score : 1.000, n_trees : 28, step time : 0.016667 minutes
+11-12 12:39 INFO: CV with max_depth = 3.000000, and min_child_weight = 3.000000
+11-12 12:39 INFO: train score : 0.550, test score : 0.727, n_trees : 1, step time : 0.000000 minutes
+11-12 12:39 INFO: CV with max_depth = 3.000000, and min_child_weight = 5.000000
+11-12 12:39 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 12:39 INFO: CV with max_depth = 3.000000, and min_child_weight = 7.000000
+11-12 12:39 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 12:39 INFO: CV with max_depth = 3.000000, and min_child_weight = 9.000000
+11-12 12:39 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.016667 minutes
+11-12 12:39 INFO: CV with max_depth = 5.000000, and min_child_weight = 1.000000
+11-12 12:39 INFO: train score : 0.614, test score : 1.000, n_trees : 28, step time : 0.000000 minutes
+11-12 12:39 INFO: CV with max_depth = 5.000000, and min_child_weight = 3.000000
+11-12 12:39 INFO: train score : 0.550, test score : 0.727, n_trees : 1, step time : 0.000000 minutes
+11-12 12:39 INFO: CV with max_depth = 5.000000, and min_child_weight = 5.000000
+11-12 12:39 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 12:39 INFO: CV with max_depth = 5.000000, and min_child_weight = 7.000000
+11-12 12:39 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 12:39 INFO: CV with max_depth = 5.000000, and min_child_weight = 9.000000
+11-12 12:39 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 12:39 INFO: CV with max_depth = 7.000000, and min_child_weight = 1.000000
+11-12 12:39 INFO: train score : 0.614, test score : 1.000, n_trees : 28, step time : 0.016667 minutes
+11-12 12:39 INFO: CV with max_depth = 7.000000, and min_child_weight = 3.000000
+11-12 12:39 INFO: train score : 0.550, test score : 0.727, n_trees : 1, step time : 0.000000 minutes
+11-12 12:39 INFO: CV with max_depth = 7.000000, and min_child_weight = 5.000000
+11-12 12:39 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 12:39 INFO: CV with max_depth = 7.000000, and min_child_weight = 7.000000
+11-12 12:39 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 12:39 INFO: CV with max_depth = 7.000000, and min_child_weight = 9.000000
+11-12 12:39 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 12:39 INFO: CV with max_depth = 9.000000, and min_child_weight = 1.000000
+11-12 12:39 INFO: train score : 0.614, test score : 1.000, n_trees : 28, step time : 0.000000 minutes
+11-12 12:39 INFO: CV with max_depth = 9.000000, and min_child_weight = 3.000000
+11-12 12:39 INFO: train score : 0.550, test score : 0.727, n_trees : 1, step time : 0.000000 minutes
+11-12 12:39 INFO: CV with max_depth = 9.000000, and min_child_weight = 5.000000
+11-12 12:39 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 12:39 INFO: CV with max_depth = 9.000000, and min_child_weight = 7.000000
+11-12 12:39 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.016667 minutes
+11-12 12:39 INFO: CV with max_depth = 9.000000, and min_child_weight = 9.000000
+11-12 12:39 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 12:39 INFO: ****** End of grid *********
+11-12 12:39 INFO: best test score : 1.0000, best train score : 0.5789 best max_depth = 1.0, best min_child_weight = 1.0 and n_trees = 30
+11-12 12:39 INFO: **** Grid Start *********
+11-12 12:39 INFO: CV with max_depth = 0.000000, and min_child_weight = 0.000000
+11-12 12:39 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 12:39 INFO: CV with max_depth = 0.000000, and min_child_weight = 1.000000
+11-12 12:39 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 12:39 INFO: CV with max_depth = 0.000000, and min_child_weight = 2.000000
+11-12 12:39 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 12:39 INFO: CV with max_depth = 1.000000, and min_child_weight = 0.000000
+11-12 12:39 INFO: train score : 0.710, test score : 1.000, n_trees : 63, step time : 0.000000 minutes
+11-12 12:39 INFO: CV with max_depth = 1.000000, and min_child_weight = 1.000000
+11-12 12:39 INFO: train score : 0.579, test score : 1.000, n_trees : 30, step time : 0.016667 minutes
+11-12 12:39 INFO: CV with max_depth = 1.000000, and min_child_weight = 2.000000
+11-12 12:39 INFO: train score : 0.621, test score : 1.000, n_trees : 9, step time : 0.000000 minutes
+11-12 12:39 INFO: CV with max_depth = 2.000000, and min_child_weight = 0.000000
+11-12 12:39 INFO: train score : 0.668, test score : 1.000, n_trees : 45, step time : 0.000000 minutes
+11-12 12:39 INFO: CV with max_depth = 2.000000, and min_child_weight = 1.000000
+11-12 12:39 INFO: train score : 0.614, test score : 1.000, n_trees : 28, step time : 0.000000 minutes
+11-12 12:39 INFO: CV with max_depth = 2.000000, and min_child_weight = 2.000000
+11-12 12:39 INFO: train score : 0.621, test score : 1.000, n_trees : 9, step time : 0.000000 minutes
+11-12 12:39 INFO: ****** End of grid *********
+11-12 12:39 INFO: best test score : 1.0000, best train score : 0.7096 best max_depth = 1.0, best min_child_weight = 0.0 and n_trees = 63
+11-12 12:40 INFO: **** Grid Start *********
+11-12 12:40 INFO: CV with subsample = 0.100000, and colsample_bytree = 0.100000
+11-12 12:40 INFO: train score : 0.604, test score : 0.956, n_trees : 45, step time : 0.016667 minutes
+11-12 12:40 INFO: CV with subsample = 0.100000, and colsample_bytree = 0.300000
+11-12 12:40 INFO: train score : 0.807, test score : 1.000, n_trees : 107, step time : 0.000000 minutes
+11-12 12:40 INFO: CV with subsample = 0.100000, and colsample_bytree = 0.500000
+11-12 12:40 INFO: train score : 0.759, test score : 0.796, n_trees : 27, step time : 0.000000 minutes
+11-12 12:40 INFO: CV with subsample = 0.100000, and colsample_bytree = 0.700000
+11-12 12:40 INFO: train score : 0.840, test score : 0.997, n_trees : 107, step time : 0.016667 minutes
+11-12 12:40 INFO: CV with subsample = 0.100000, and colsample_bytree = 0.900000
+11-12 12:40 INFO: train score : 0.828, test score : 0.802, n_trees : 27, step time : 0.000000 minutes
+11-12 12:40 INFO: CV with subsample = 0.300000, and colsample_bytree = 0.100000
+11-12 12:40 INFO: train score : 0.661, test score : 0.737, n_trees : 4, step time : 0.000000 minutes
+11-12 12:40 INFO: CV with subsample = 0.300000, and colsample_bytree = 0.300000
+11-12 12:40 INFO: train score : 0.657, test score : 0.991, n_trees : 31, step time : 0.000000 minutes
+11-12 12:40 INFO: CV with subsample = 0.300000, and colsample_bytree = 0.500000
+11-12 12:40 INFO: train score : 0.768, test score : 0.997, n_trees : 31, step time : 0.016667 minutes
+11-12 12:40 INFO: CV with subsample = 0.300000, and colsample_bytree = 0.700000
+11-12 12:40 INFO: train score : 0.793, test score : 1.000, n_trees : 60, step time : 0.000000 minutes
+11-12 12:40 INFO: CV with subsample = 0.300000, and colsample_bytree = 0.900000
+11-12 12:40 INFO: train score : 0.702, test score : 1.000, n_trees : 38, step time : 0.000000 minutes
+11-12 12:40 INFO: CV with subsample = 0.500000, and colsample_bytree = 0.100000
+11-12 12:40 INFO: train score : 0.693, test score : 1.000, n_trees : 77, step time : 0.000000 minutes
+11-12 12:40 INFO: CV with subsample = 0.500000, and colsample_bytree = 0.300000
+11-12 12:40 INFO: train score : 0.702, test score : 1.000, n_trees : 82, step time : 0.016667 minutes
+11-12 12:40 INFO: CV with subsample = 0.500000, and colsample_bytree = 0.500000
+11-12 12:40 INFO: train score : 0.745, test score : 1.000, n_trees : 38, step time : 0.000000 minutes
+11-12 12:40 INFO: CV with subsample = 0.500000, and colsample_bytree = 0.700000
+11-12 12:40 INFO: train score : 0.702, test score : 1.000, n_trees : 50, step time : 0.000000 minutes
+11-12 12:40 INFO: CV with subsample = 0.500000, and colsample_bytree = 0.900000
+11-12 12:40 INFO: train score : 0.683, test score : 1.000, n_trees : 49, step time : 0.000000 minutes
+11-12 12:40 INFO: CV with subsample = 0.700000, and colsample_bytree = 0.100000
+11-12 12:40 INFO: train score : 0.728, test score : 1.000, n_trees : 54, step time : 0.016667 minutes
+11-12 12:40 INFO: CV with subsample = 0.700000, and colsample_bytree = 0.300000
+11-12 12:40 INFO: train score : 0.745, test score : 1.000, n_trees : 54, step time : 0.016667 minutes
+11-12 12:40 INFO: CV with subsample = 0.700000, and colsample_bytree = 0.500000
+11-12 12:40 INFO: train score : 0.727, test score : 1.000, n_trees : 46, step time : 0.000000 minutes
+11-12 12:40 INFO: CV with subsample = 0.700000, and colsample_bytree = 0.700000
+11-12 12:40 INFO: train score : 0.586, test score : 1.000, n_trees : 43, step time : 0.000000 minutes
+11-12 12:40 INFO: CV with subsample = 0.700000, and colsample_bytree = 0.900000
+11-12 12:40 INFO: train score : 0.630, test score : 1.000, n_trees : 42, step time : 0.000000 minutes
+11-12 12:40 INFO: CV with subsample = 0.900000, and colsample_bytree = 0.100000
+11-12 12:40 INFO: train score : 0.674, test score : 1.000, n_trees : 78, step time : 0.016667 minutes
+11-12 12:40 INFO: CV with subsample = 0.900000, and colsample_bytree = 0.300000
+11-12 12:40 INFO: train score : 0.737, test score : 1.000, n_trees : 50, step time : 0.000000 minutes
+11-12 12:40 INFO: CV with subsample = 0.900000, and colsample_bytree = 0.500000
+11-12 12:40 INFO: train score : 0.719, test score : 1.000, n_trees : 76, step time : 0.000000 minutes
+11-12 12:40 INFO: CV with subsample = 0.900000, and colsample_bytree = 0.700000
+11-12 12:40 INFO: train score : 0.753, test score : 1.000, n_trees : 139, step time : 0.016667 minutes
+11-12 12:40 INFO: CV with subsample = 0.900000, and colsample_bytree = 0.900000
+11-12 12:40 INFO: train score : 0.771, test score : 1.000, n_trees : 223, step time : 0.016667 minutes
+11-12 12:40 INFO: ****** End of grid *********
+11-12 12:40 INFO: best test score : 1.0000, best train score : 0.8070 best subsample = 0.1, best colsample_bytree = 0.3 and n_trees = 107
+11-12 12:40 INFO: **** Grid Start *********
+11-12 12:40 INFO: CV with subsample = 0.000000, and colsample_bytree = 0.200000
+11-12 12:40 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 12:40 INFO: CV with subsample = 0.000000, and colsample_bytree = 0.250000
+11-12 12:40 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 12:40 INFO: CV with subsample = 0.000000, and colsample_bytree = 0.300000
+11-12 12:40 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.016667 minutes
+11-12 12:40 INFO: CV with subsample = 0.000000, and colsample_bytree = 0.350000
+11-12 12:40 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 12:40 INFO: CV with subsample = 0.000000, and colsample_bytree = 0.400000
+11-12 12:40 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 12:40 INFO: CV with subsample = 0.050000, and colsample_bytree = 0.200000
+11-12 12:40 INFO: train score : 0.833, test score : 0.829, n_trees : 64, step time : 0.016667 minutes
+11-12 12:40 INFO: CV with subsample = 0.050000, and colsample_bytree = 0.250000
+11-12 12:40 INFO: train score : 0.846, test score : 0.882, n_trees : 68, step time : 0.000000 minutes
+11-12 12:40 INFO: CV with subsample = 0.050000, and colsample_bytree = 0.300000
+11-12 12:40 INFO: train score : 0.788, test score : 0.962, n_trees : 84, step time : 0.000000 minutes
+11-12 12:40 INFO: CV with subsample = 0.050000, and colsample_bytree = 0.350000
+11-12 12:40 INFO: train score : 0.851, test score : 0.953, n_trees : 87, step time : 0.016667 minutes
+11-12 12:40 INFO: CV with subsample = 0.050000, and colsample_bytree = 0.400000
+11-12 12:40 INFO: train score : 0.851, test score : 0.963, n_trees : 87, step time : 0.000000 minutes
+11-12 12:40 INFO: CV with subsample = 0.100000, and colsample_bytree = 0.200000
+11-12 12:40 INFO: train score : 0.726, test score : 0.997, n_trees : 107, step time : 0.000000 minutes
+11-12 12:40 INFO: CV with subsample = 0.100000, and colsample_bytree = 0.250000
+11-12 12:40 INFO: train score : 0.831, test score : 0.991, n_trees : 68, step time : 0.016667 minutes
+11-12 12:40 INFO: CV with subsample = 0.100000, and colsample_bytree = 0.300000
+11-12 12:40 INFO: train score : 0.807, test score : 1.000, n_trees : 107, step time : 0.000000 minutes
+11-12 12:40 INFO: CV with subsample = 0.100000, and colsample_bytree = 0.350000
+11-12 12:40 INFO: train score : 0.860, test score : 0.982, n_trees : 90, step time : 0.000000 minutes
+11-12 12:40 INFO: CV with subsample = 0.100000, and colsample_bytree = 0.400000
+11-12 12:40 INFO: train score : 0.894, test score : 0.991, n_trees : 89, step time : 0.016667 minutes
+11-12 12:40 INFO: CV with subsample = 0.150000, and colsample_bytree = 0.200000
+11-12 12:40 INFO: train score : 0.769, test score : 0.997, n_trees : 77, step time : 0.000000 minutes
+11-12 12:40 INFO: CV with subsample = 0.150000, and colsample_bytree = 0.250000
+11-12 12:40 INFO: train score : 0.893, test score : 0.995, n_trees : 50, step time : 0.000000 minutes
+11-12 12:40 INFO: CV with subsample = 0.150000, and colsample_bytree = 0.300000
+11-12 12:40 INFO: train score : 0.786, test score : 0.992, n_trees : 62, step time : 0.016667 minutes
+11-12 12:40 INFO: CV with subsample = 0.150000, and colsample_bytree = 0.350000
+11-12 12:40 INFO: train score : 0.858, test score : 0.991, n_trees : 65, step time : 0.000000 minutes
+11-12 12:40 INFO: CV with subsample = 0.150000, and colsample_bytree = 0.400000
+11-12 12:40 INFO: train score : 0.865, test score : 0.964, n_trees : 42, step time : 0.000000 minutes
+11-12 12:40 INFO: CV with subsample = 0.200000, and colsample_bytree = 0.200000
+11-12 12:40 INFO: train score : 0.587, test score : 0.802, n_trees : 6, step time : 0.000000 minutes
+11-12 12:40 INFO: CV with subsample = 0.200000, and colsample_bytree = 0.250000
+11-12 12:40 INFO: train score : 0.781, test score : 1.000, n_trees : 89, step time : 0.000000 minutes
+11-12 12:40 INFO: CV with subsample = 0.200000, and colsample_bytree = 0.300000
+11-12 12:40 INFO: train score : 0.672, test score : 0.973, n_trees : 27, step time : 0.016667 minutes
+11-12 12:40 INFO: CV with subsample = 0.200000, and colsample_bytree = 0.350000
+11-12 12:40 INFO: train score : 0.760, test score : 0.994, n_trees : 33, step time : 0.000000 minutes
+11-12 12:40 INFO: CV with subsample = 0.200000, and colsample_bytree = 0.400000
+11-12 12:40 INFO: train score : 0.805, test score : 1.000, n_trees : 112, step time : 0.000000 minutes
+11-12 12:40 INFO: ****** End of grid *********
+11-12 12:40 INFO: best test score : 1.0000, best train score : 0.8070 best subsample = 0.1, best colsample_bytree = 0.3 and n_trees = 107
+11-12 12:40 INFO: **** Grid Start *********
+11-12 12:40 INFO: CV with reg_alpha = 1.000000, and reg_lambda = 1.000000
+11-12 12:40 INFO: train score : 0.764, test score : 0.994, n_trees : 116, step time : 0.016667 minutes
+11-12 12:40 INFO: CV with reg_alpha = 1.000000, and reg_lambda = 0.100000
+11-12 12:40 INFO: train score : 0.579, test score : 0.791, n_trees : 25, step time : 0.000000 minutes
+11-12 12:40 INFO: CV with reg_alpha = 1.000000, and reg_lambda = 0.010000
+11-12 12:40 INFO: train score : 0.579, test score : 0.791, n_trees : 25, step time : 0.000000 minutes
+11-12 12:40 INFO: CV with reg_alpha = 1.000000, and reg_lambda = 0.001000
+11-12 12:40 INFO: train score : 0.579, test score : 0.791, n_trees : 25, step time : 0.000000 minutes
+11-12 12:40 INFO: CV with reg_alpha = 1.000000, and reg_lambda = 0.000100
+11-12 12:40 INFO: train score : 0.579, test score : 0.791, n_trees : 25, step time : 0.000000 minutes
+11-12 12:40 INFO: CV with reg_alpha = 3.000000, and reg_lambda = 1.000000
+11-12 12:40 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.016667 minutes
+11-12 12:40 INFO: CV with reg_alpha = 3.000000, and reg_lambda = 0.100000
+11-12 12:40 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 12:40 INFO: CV with reg_alpha = 3.000000, and reg_lambda = 0.010000
+11-12 12:40 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 12:40 INFO: CV with reg_alpha = 3.000000, and reg_lambda = 0.001000
+11-12 12:40 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 12:40 INFO: CV with reg_alpha = 3.000000, and reg_lambda = 0.000100
+11-12 12:40 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 12:40 INFO: CV with reg_alpha = 5.000000, and reg_lambda = 1.000000
+11-12 12:40 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 12:40 INFO: CV with reg_alpha = 5.000000, and reg_lambda = 0.100000
+11-12 12:40 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.016667 minutes
+11-12 12:40 INFO: CV with reg_alpha = 5.000000, and reg_lambda = 0.010000
+11-12 12:40 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 12:40 INFO: CV with reg_alpha = 5.000000, and reg_lambda = 0.001000
+11-12 12:40 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 12:40 INFO: CV with reg_alpha = 5.000000, and reg_lambda = 0.000100
+11-12 12:40 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 12:40 INFO: CV with reg_alpha = 7.000000, and reg_lambda = 1.000000
+11-12 12:40 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 12:40 INFO: CV with reg_alpha = 7.000000, and reg_lambda = 0.100000
+11-12 12:40 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 12:40 INFO: CV with reg_alpha = 7.000000, and reg_lambda = 0.010000
+11-12 12:40 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 12:40 INFO: CV with reg_alpha = 7.000000, and reg_lambda = 0.001000
+11-12 12:40 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 12:40 INFO: CV with reg_alpha = 7.000000, and reg_lambda = 0.000100
+11-12 12:40 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.016667 minutes
+11-12 12:40 INFO: CV with reg_alpha = 9.000000, and reg_lambda = 1.000000
+11-12 12:40 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 12:40 INFO: CV with reg_alpha = 9.000000, and reg_lambda = 0.100000
+11-12 12:40 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 12:40 INFO: CV with reg_alpha = 9.000000, and reg_lambda = 0.010000
+11-12 12:40 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 12:40 INFO: CV with reg_alpha = 9.000000, and reg_lambda = 0.001000
+11-12 12:40 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 12:40 INFO: CV with reg_alpha = 9.000000, and reg_lambda = 0.000100
+11-12 12:40 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 12:40 INFO: ****** End of grid *********
+11-12 12:40 INFO: best test score : 0.9942, best train score : 0.7636 best reg_alpha = 1.0, best reg_lambda = 1.0 and n_trees = 116
+11-12 12:40 INFO: **** Grid Start *********
+11-12 12:40 INFO: CV with reg_alpha = 0.000000, and reg_lambda = 1.000000
+11-12 12:40 INFO: train score : 0.894, test score : 0.991, n_trees : 89, step time : 0.016667 minutes
+11-12 12:40 INFO: CV with reg_alpha = 0.500000, and reg_lambda = 1.000000
+11-12 12:40 INFO: train score : 0.885, test score : 0.997, n_trees : 107, step time : 0.000000 minutes
+11-12 12:40 INFO: CV with reg_alpha = 1.000000, and reg_lambda = 1.000000
+11-12 12:40 INFO: train score : 0.764, test score : 0.994, n_trees : 116, step time : 0.000000 minutes
+11-12 12:40 INFO: CV with reg_alpha = 1.500000, and reg_lambda = 1.000000
+11-12 12:40 INFO: train score : 0.566, test score : 0.653, n_trees : 2, step time : 0.016667 minutes
+11-12 12:40 INFO: CV with reg_alpha = 2.000000, and reg_lambda = 1.000000
+11-12 12:40 INFO: train score : 0.531, test score : 0.599, n_trees : 1, step time : 0.000000 minutes
+11-12 12:40 INFO: CV with reg_alpha = 2.500000, and reg_lambda = 1.000000
+11-12 12:40 INFO: train score : 0.531, test score : 0.599, n_trees : 1, step time : 0.000000 minutes
+11-12 12:40 INFO: CV with reg_alpha = 3.000000, and reg_lambda = 1.000000
+11-12 12:40 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 12:40 INFO: CV with reg_alpha = 3.500000, and reg_lambda = 1.000000
+11-12 12:40 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 12:40 INFO: CV with reg_alpha = 4.000000, and reg_lambda = 1.000000
+11-12 12:40 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 12:40 INFO: CV with reg_alpha = 4.500000, and reg_lambda = 1.000000
+11-12 12:40 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 12:40 INFO: CV with reg_alpha = 5.000000, and reg_lambda = 1.000000
+11-12 12:40 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 12:40 INFO: CV with reg_alpha = 5.500000, and reg_lambda = 1.000000
+11-12 12:40 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.016667 minutes
+11-12 12:40 INFO: CV with reg_alpha = 6.000000, and reg_lambda = 1.000000
+11-12 12:40 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 12:40 INFO: CV with reg_alpha = 6.500000, and reg_lambda = 1.000000
+11-12 12:40 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 12:40 INFO: CV with reg_alpha = 7.000000, and reg_lambda = 1.000000
+11-12 12:40 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 12:40 INFO: CV with reg_alpha = 7.500000, and reg_lambda = 1.000000
+11-12 12:40 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 12:40 INFO: CV with reg_alpha = 8.000000, and reg_lambda = 1.000000
+11-12 12:40 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 12:40 INFO: CV with reg_alpha = 8.500000, and reg_lambda = 1.000000
+11-12 12:40 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 12:40 INFO: CV with reg_alpha = 9.000000, and reg_lambda = 1.000000
+11-12 12:40 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 12:40 INFO: CV with reg_alpha = 9.500000, and reg_lambda = 1.000000
+11-12 12:40 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.016667 minutes
+11-12 12:40 INFO: CV with reg_alpha = 10.000000, and reg_lambda = 1.000000
+11-12 12:40 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 12:40 INFO: CV with reg_alpha = 10.500000, and reg_lambda = 1.000000
+11-12 12:40 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 12:40 INFO: CV with reg_alpha = 11.000000, and reg_lambda = 1.000000
+11-12 12:40 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 12:40 INFO: CV with reg_alpha = 11.500000, and reg_lambda = 1.000000
+11-12 12:40 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 12:40 INFO: ****** End of grid *********
+11-12 12:40 INFO: best test score : 0.9971, best train score : 0.8850 best reg_alpha = 0.5, best reg_lambda = 1.0 and n_trees = 107
+11-12 12:40 INFO: **** Grid Start *********
+11-12 12:40 INFO: CV with gamma = 1.000000
+11-12 12:40 INFO: train score : 0.531, test score : 0.599, n_trees : 1, step time : 0.000000 minutes
+11-12 12:40 INFO: CV with gamma = 3.000000
+11-12 12:40 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 12:40 INFO: CV with gamma = 5.000000
+11-12 12:40 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.016667 minutes
+11-12 12:40 INFO: CV with gamma = 7.000000
+11-12 12:40 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 12:40 INFO: CV with gamma = 9.000000
+11-12 12:40 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 12:40 INFO: ****** End of grid *********
+11-12 12:40 INFO: best test score : 0.5991, best train score : 0.5307, best gamma = 1.0 and n_trees = 0
+11-12 12:40 INFO: **** Grid Start *********
+11-12 12:40 INFO: CV with gamma = 0.000000
+11-12 12:40 INFO: train score : 0.885, test score : 0.997, n_trees : 107, step time : 0.000000 minutes
+11-12 12:40 INFO: CV with gamma = 0.500000
+11-12 12:40 INFO: train score : 0.798, test score : 0.905, n_trees : 107, step time : 0.016667 minutes
+11-12 12:40 INFO: CV with gamma = 1.000000
+11-12 12:40 INFO: train score : 0.531, test score : 0.599, n_trees : 1, step time : 0.000000 minutes
+11-12 12:40 INFO: CV with gamma = 1.500000
+11-12 12:40 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 12:40 INFO: CV with gamma = 2.000000
+11-12 12:40 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 12:40 INFO: CV with gamma = 2.500000
+11-12 12:40 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 12:40 INFO: CV with gamma = 3.000000
+11-12 12:40 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.016667 minutes
+11-12 12:40 INFO: CV with gamma = 3.500000
+11-12 12:40 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 12:40 INFO: CV with gamma = 4.000000
+11-12 12:40 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 12:40 INFO: CV with gamma = 4.500000
+11-12 12:40 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 12:40 INFO: CV with gamma = 5.000000
+11-12 12:40 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 12:40 INFO: CV with gamma = 5.500000
+11-12 12:40 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 12:40 INFO: CV with gamma = 6.000000
+11-12 12:40 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 12:40 INFO: CV with gamma = 6.500000
+11-12 12:40 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 12:40 INFO: CV with gamma = 7.000000
+11-12 12:40 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.016667 minutes
+11-12 12:40 INFO: CV with gamma = 7.500000
+11-12 12:40 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 12:40 INFO: CV with gamma = 8.000000
+11-12 12:40 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 12:40 INFO: CV with gamma = 8.500000
+11-12 12:40 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 12:40 INFO: CV with gamma = 9.000000
+11-12 12:40 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 12:40 INFO: CV with gamma = 9.500000
+11-12 12:40 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 12:40 INFO: CV with gamma = 10.000000
+11-12 12:40 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 12:40 INFO: CV with gamma = 10.500000
+11-12 12:40 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 12:40 INFO: CV with gamma = 11.000000
+11-12 12:40 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.016667 minutes
+11-12 12:40 INFO: CV with gamma = 11.500000
+11-12 12:40 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 12:40 INFO: ****** End of grid *********
+11-12 12:40 INFO: best test score : 0.9971, best train score : 0.8850, best gamma = 0.0 and n_trees = 0
+11-12 12:40 INFO: **** Grid Start *********
+11-12 12:40 INFO: CV with eta = 0.100000
+11-12 12:40 INFO: train score : 0.859, test score : 0.994, n_trees : 107, step time : 0.000000 minutes
+11-12 12:40 INFO: CV with eta = 0.200000
+11-12 12:40 INFO: train score : 0.885, test score : 0.994, n_trees : 107, step time : 0.000000 minutes
+11-12 12:40 INFO: CV with eta = 0.300000
+11-12 12:40 INFO: train score : 0.885, test score : 0.997, n_trees : 107, step time : 0.016667 minutes
+11-12 12:40 INFO: ****** End of grid *********
+11-12 12:40 INFO: best test score : 0.9971, best train score : 0.8850, best eta = 0.3 and n_trees = 107
+11-12 12:51 INFO: ------------------initialized-----------------
+11-12 12:51 INFO: **** Grid Start *********
+11-12 12:51 INFO: CV with max_depth = 1.000000, and min_child_weight = 1.000000
+11-12 12:51 INFO: train score : 0.579, test score : 1.000, n_trees : 30, step time : 0.000000 minutes
+11-12 12:51 INFO: CV with max_depth = 1.000000, and min_child_weight = 3.000000
+11-12 12:51 INFO: train score : 0.550, test score : 0.727, n_trees : 1, step time : 0.000000 minutes
+11-12 12:51 INFO: CV with max_depth = 1.000000, and min_child_weight = 5.000000
+11-12 12:51 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 12:51 INFO: CV with max_depth = 1.000000, and min_child_weight = 7.000000
+11-12 12:51 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.016667 minutes
+11-12 12:51 INFO: CV with max_depth = 1.000000, and min_child_weight = 9.000000
+11-12 12:51 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 12:51 INFO: CV with max_depth = 3.000000, and min_child_weight = 1.000000
+11-12 12:51 INFO: train score : 0.614, test score : 1.000, n_trees : 28, step time : 0.000000 minutes
+11-12 12:51 INFO: CV with max_depth = 3.000000, and min_child_weight = 3.000000
+11-12 12:51 INFO: train score : 0.550, test score : 0.727, n_trees : 1, step time : 0.000000 minutes
+11-12 12:51 INFO: CV with max_depth = 3.000000, and min_child_weight = 5.000000
+11-12 12:51 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 12:51 INFO: CV with max_depth = 3.000000, and min_child_weight = 7.000000
+11-12 12:51 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 12:51 INFO: CV with max_depth = 3.000000, and min_child_weight = 9.000000
+11-12 12:51 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 12:51 INFO: CV with max_depth = 5.000000, and min_child_weight = 1.000000
+11-12 12:51 INFO: train score : 0.614, test score : 1.000, n_trees : 28, step time : 0.016667 minutes
+11-12 12:51 INFO: CV with max_depth = 5.000000, and min_child_weight = 3.000000
+11-12 12:51 INFO: train score : 0.550, test score : 0.727, n_trees : 1, step time : 0.000000 minutes
+11-12 12:51 INFO: CV with max_depth = 5.000000, and min_child_weight = 5.000000
+11-12 12:51 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 12:51 INFO: CV with max_depth = 5.000000, and min_child_weight = 7.000000
+11-12 12:51 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 12:51 INFO: CV with max_depth = 5.000000, and min_child_weight = 9.000000
+11-12 12:51 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 12:51 INFO: CV with max_depth = 7.000000, and min_child_weight = 1.000000
+11-12 12:51 INFO: train score : 0.614, test score : 1.000, n_trees : 28, step time : 0.000000 minutes
+11-12 12:51 INFO: CV with max_depth = 7.000000, and min_child_weight = 3.000000
+11-12 12:51 INFO: train score : 0.550, test score : 0.727, n_trees : 1, step time : 0.000000 minutes
+11-12 12:51 INFO: CV with max_depth = 7.000000, and min_child_weight = 5.000000
+11-12 12:51 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.016667 minutes
+11-12 12:51 INFO: CV with max_depth = 7.000000, and min_child_weight = 7.000000
+11-12 12:51 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 12:51 INFO: CV with max_depth = 7.000000, and min_child_weight = 9.000000
+11-12 12:51 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 12:51 INFO: CV with max_depth = 9.000000, and min_child_weight = 1.000000
+11-12 12:51 INFO: train score : 0.614, test score : 1.000, n_trees : 28, step time : 0.000000 minutes
+11-12 12:51 INFO: CV with max_depth = 9.000000, and min_child_weight = 3.000000
+11-12 12:51 INFO: train score : 0.550, test score : 0.727, n_trees : 1, step time : 0.000000 minutes
+11-12 12:51 INFO: CV with max_depth = 9.000000, and min_child_weight = 5.000000
+11-12 12:51 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 12:51 INFO: CV with max_depth = 9.000000, and min_child_weight = 7.000000
+11-12 12:51 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.016667 minutes
+11-12 12:51 INFO: CV with max_depth = 9.000000, and min_child_weight = 9.000000
+11-12 12:51 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 12:51 INFO: ****** End of grid *********
+11-12 12:53 INFO: **** Grid Start *********
+11-12 12:53 INFO: CV with max_depth = 1.000000, and min_child_weight = 1.000000
+11-12 12:53 INFO: train score : 0.579, test score : 1.000, n_trees : 30, step time : 0.000000 minutes
+11-12 12:53 INFO: CV with max_depth = 1.000000, and min_child_weight = 3.000000
+11-12 12:53 INFO: train score : 0.550, test score : 0.727, n_trees : 1, step time : 0.000000 minutes
+11-12 12:53 INFO: CV with max_depth = 1.000000, and min_child_weight = 5.000000
+11-12 12:53 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 12:53 INFO: CV with max_depth = 1.000000, and min_child_weight = 7.000000
+11-12 12:53 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 12:53 INFO: CV with max_depth = 1.000000, and min_child_weight = 9.000000
+11-12 12:53 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 12:53 INFO: CV with max_depth = 3.000000, and min_child_weight = 1.000000
+11-12 12:53 INFO: train score : 0.614, test score : 1.000, n_trees : 28, step time : 0.016667 minutes
+11-12 12:53 INFO: CV with max_depth = 3.000000, and min_child_weight = 3.000000
+11-12 12:53 INFO: train score : 0.550, test score : 0.727, n_trees : 1, step time : 0.000000 minutes
+11-12 12:53 INFO: CV with max_depth = 3.000000, and min_child_weight = 5.000000
+11-12 12:53 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 12:53 INFO: CV with max_depth = 3.000000, and min_child_weight = 7.000000
+11-12 12:53 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 12:53 INFO: CV with max_depth = 3.000000, and min_child_weight = 9.000000
+11-12 12:53 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 12:53 INFO: CV with max_depth = 5.000000, and min_child_weight = 1.000000
+11-12 12:53 INFO: train score : 0.614, test score : 1.000, n_trees : 28, step time : 0.016667 minutes
+11-12 12:53 INFO: CV with max_depth = 5.000000, and min_child_weight = 3.000000
+11-12 12:53 INFO: train score : 0.550, test score : 0.727, n_trees : 1, step time : 0.000000 minutes
+11-12 12:53 INFO: CV with max_depth = 5.000000, and min_child_weight = 5.000000
+11-12 12:53 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 12:53 INFO: CV with max_depth = 5.000000, and min_child_weight = 7.000000
+11-12 12:53 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 12:53 INFO: CV with max_depth = 5.000000, and min_child_weight = 9.000000
+11-12 12:53 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 12:53 INFO: CV with max_depth = 7.000000, and min_child_weight = 1.000000
+11-12 12:53 INFO: train score : 0.614, test score : 1.000, n_trees : 28, step time : 0.000000 minutes
+11-12 12:53 INFO: CV with max_depth = 7.000000, and min_child_weight = 3.000000
+11-12 12:53 INFO: train score : 0.550, test score : 0.727, n_trees : 1, step time : 0.000000 minutes
+11-12 12:53 INFO: CV with max_depth = 7.000000, and min_child_weight = 5.000000
+11-12 12:53 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 12:53 INFO: CV with max_depth = 7.000000, and min_child_weight = 7.000000
+11-12 12:53 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 12:53 INFO: CV with max_depth = 7.000000, and min_child_weight = 9.000000
+11-12 12:53 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 12:53 INFO: CV with max_depth = 9.000000, and min_child_weight = 1.000000
+11-12 12:53 INFO: train score : 0.614, test score : 1.000, n_trees : 28, step time : 0.016667 minutes
+11-12 12:53 INFO: CV with max_depth = 9.000000, and min_child_weight = 3.000000
+11-12 12:53 INFO: train score : 0.550, test score : 0.727, n_trees : 1, step time : 0.000000 minutes
+11-12 12:53 INFO: CV with max_depth = 9.000000, and min_child_weight = 5.000000
+11-12 12:53 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 12:53 INFO: CV with max_depth = 9.000000, and min_child_weight = 7.000000
+11-12 12:53 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 12:53 INFO: CV with max_depth = 9.000000, and min_child_weight = 9.000000
+11-12 12:53 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 12:53 INFO: ****** End of grid *********
+11-12 12:53 INFO: best test score : 1.0000, best train score : 0.5789best max_depth = 1.0, best min_child_weight = 1.0 and n_trees = 30
+11-12 12:53 INFO: **** Grid Start *********
+11-12 12:53 INFO: CV with max_depth = 0.000000, and min_child_weight = 0.000000
+11-12 12:53 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 12:53 INFO: CV with max_depth = 0.000000, and min_child_weight = 1.000000
+11-12 12:53 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 12:53 INFO: CV with max_depth = 0.000000, and min_child_weight = 2.000000
+11-12 12:53 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.016667 minutes
+11-12 12:53 INFO: CV with max_depth = 1.000000, and min_child_weight = 0.000000
+11-12 12:53 INFO: train score : 0.710, test score : 1.000, n_trees : 63, step time : 0.000000 minutes
+11-12 12:53 INFO: CV with max_depth = 1.000000, and min_child_weight = 1.000000
+11-12 12:53 INFO: train score : 0.579, test score : 1.000, n_trees : 30, step time : 0.000000 minutes
+11-12 12:53 INFO: CV with max_depth = 1.000000, and min_child_weight = 2.000000
+11-12 12:53 INFO: train score : 0.621, test score : 1.000, n_trees : 9, step time : 0.000000 minutes
+11-12 12:53 INFO: CV with max_depth = 2.000000, and min_child_weight = 0.000000
+11-12 12:53 INFO: train score : 0.668, test score : 1.000, n_trees : 45, step time : 0.000000 minutes
+11-12 12:53 INFO: CV with max_depth = 2.000000, and min_child_weight = 1.000000
+11-12 12:53 INFO: train score : 0.614, test score : 1.000, n_trees : 28, step time : 0.016667 minutes
+11-12 12:53 INFO: CV with max_depth = 2.000000, and min_child_weight = 2.000000
+11-12 12:53 INFO: train score : 0.621, test score : 1.000, n_trees : 9, step time : 0.000000 minutes
+11-12 12:53 INFO: ****** End of grid *********
+11-12 12:53 INFO: best test score : 1.0000, best train score : 0.7096best max_depth = 1.0, best min_child_weight = 0.0 and n_trees = 63
+11-12 12:55 INFO: **** Grid Start *********
+11-12 12:55 INFO: CV with max_depth = 1.000000, and min_child_weight = 1.000000
+11-12 12:55 INFO: train score : 0.579, test score : 1.000, n_trees : 30, step time : 0.000000 minutes
+11-12 12:55 INFO: CV with max_depth = 1.000000, and min_child_weight = 3.000000
+11-12 12:55 INFO: train score : 0.550, test score : 0.727, n_trees : 1, step time : 0.016667 minutes
+11-12 12:55 INFO: CV with max_depth = 1.000000, and min_child_weight = 5.000000
+11-12 12:55 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 12:55 INFO: CV with max_depth = 1.000000, and min_child_weight = 7.000000
+11-12 12:55 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 12:55 INFO: CV with max_depth = 1.000000, and min_child_weight = 9.000000
+11-12 12:55 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 12:55 INFO: CV with max_depth = 3.000000, and min_child_weight = 1.000000
+11-12 12:55 INFO: train score : 0.614, test score : 1.000, n_trees : 28, step time : 0.000000 minutes
+11-12 12:55 INFO: CV with max_depth = 3.000000, and min_child_weight = 3.000000
+11-12 12:55 INFO: train score : 0.550, test score : 0.727, n_trees : 1, step time : 0.000000 minutes
+11-12 12:55 INFO: CV with max_depth = 3.000000, and min_child_weight = 5.000000
+11-12 12:55 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 12:55 INFO: CV with max_depth = 3.000000, and min_child_weight = 7.000000
+11-12 12:55 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.016667 minutes
+11-12 12:55 INFO: CV with max_depth = 3.000000, and min_child_weight = 9.000000
+11-12 12:55 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 12:55 INFO: CV with max_depth = 5.000000, and min_child_weight = 1.000000
+11-12 12:55 INFO: train score : 0.614, test score : 1.000, n_trees : 28, step time : 0.000000 minutes
+11-12 12:55 INFO: CV with max_depth = 5.000000, and min_child_weight = 3.000000
+11-12 12:55 INFO: train score : 0.550, test score : 0.727, n_trees : 1, step time : 0.000000 minutes
+11-12 12:55 INFO: CV with max_depth = 5.000000, and min_child_weight = 5.000000
+11-12 12:55 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 12:55 INFO: CV with max_depth = 5.000000, and min_child_weight = 7.000000
+11-12 12:55 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 12:55 INFO: CV with max_depth = 5.000000, and min_child_weight = 9.000000
+11-12 12:55 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 12:55 INFO: CV with max_depth = 7.000000, and min_child_weight = 1.000000
+11-12 12:55 INFO: train score : 0.614, test score : 1.000, n_trees : 28, step time : 0.016667 minutes
+11-12 12:55 INFO: CV with max_depth = 7.000000, and min_child_weight = 3.000000
+11-12 12:55 INFO: train score : 0.550, test score : 0.727, n_trees : 1, step time : 0.000000 minutes
+11-12 12:55 INFO: CV with max_depth = 7.000000, and min_child_weight = 5.000000
+11-12 12:55 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 12:55 INFO: CV with max_depth = 7.000000, and min_child_weight = 7.000000
+11-12 12:55 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 12:55 INFO: CV with max_depth = 7.000000, and min_child_weight = 9.000000
+11-12 12:55 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 12:55 INFO: CV with max_depth = 9.000000, and min_child_weight = 1.000000
+11-12 12:55 INFO: train score : 0.614, test score : 1.000, n_trees : 28, step time : 0.000000 minutes
+11-12 12:55 INFO: CV with max_depth = 9.000000, and min_child_weight = 3.000000
+11-12 12:55 INFO: train score : 0.550, test score : 0.727, n_trees : 1, step time : 0.000000 minutes
+11-12 12:55 INFO: CV with max_depth = 9.000000, and min_child_weight = 5.000000
+11-12 12:55 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.016667 minutes
+11-12 12:55 INFO: CV with max_depth = 9.000000, and min_child_weight = 7.000000
+11-12 12:55 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 12:55 INFO: CV with max_depth = 9.000000, and min_child_weight = 9.000000
+11-12 12:55 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 12:55 INFO: ****** End of grid *********
+11-12 12:55 INFO: best test score : 1.0000,best train score : 0.5789best max_depth = 1.0,best min_child_weight = 1.0 and n_trees = 30
+11-12 12:55 INFO: **** Grid Start *********
+11-12 12:55 INFO: CV with max_depth = 0.000000, and min_child_weight = 0.000000
+11-12 12:55 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 12:55 INFO: CV with max_depth = 0.000000, and min_child_weight = 1.000000
+11-12 12:55 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 12:55 INFO: CV with max_depth = 0.000000, and min_child_weight = 2.000000
+11-12 12:55 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 12:55 INFO: CV with max_depth = 1.000000, and min_child_weight = 0.000000
+11-12 12:55 INFO: train score : 0.710, test score : 1.000, n_trees : 63, step time : 0.000000 minutes
+11-12 12:55 INFO: CV with max_depth = 1.000000, and min_child_weight = 1.000000
+11-12 12:55 INFO: train score : 0.579, test score : 1.000, n_trees : 30, step time : 0.016667 minutes
+11-12 12:55 INFO: CV with max_depth = 1.000000, and min_child_weight = 2.000000
+11-12 12:55 INFO: train score : 0.621, test score : 1.000, n_trees : 9, step time : 0.000000 minutes
+11-12 12:55 INFO: CV with max_depth = 2.000000, and min_child_weight = 0.000000
+11-12 12:55 INFO: train score : 0.668, test score : 1.000, n_trees : 45, step time : 0.000000 minutes
+11-12 12:55 INFO: CV with max_depth = 2.000000, and min_child_weight = 1.000000
+11-12 12:55 INFO: train score : 0.614, test score : 1.000, n_trees : 28, step time : 0.000000 minutes
+11-12 12:55 INFO: CV with max_depth = 2.000000, and min_child_weight = 2.000000
+11-12 12:55 INFO: train score : 0.621, test score : 1.000, n_trees : 9, step time : 0.000000 minutes
+11-12 12:55 INFO: ****** End of grid *********
+11-12 12:55 INFO: best test score : 1.0000,best train score : 0.7096best max_depth = 1.0,best min_child_weight = 0.0 and n_trees = 63
+11-12 12:58 INFO: **** Grid Start *********
+11-12 12:58 INFO: CV with gamma = 1.000000
+11-12 12:58 INFO: train score : 0.473, test score : 0.611, n_trees : 0, step time : 0.000000 minutes
+11-12 12:58 INFO: CV with gamma = 3.000000
+11-12 12:58 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 12:58 INFO: CV with gamma = 5.000000
+11-12 12:58 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 12:58 INFO: CV with gamma = 7.000000
+11-12 12:58 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 12:58 INFO: CV with gamma = 9.000000
+11-12 12:58 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 12:58 INFO: ****** End of grid *********
+11-12 12:58 INFO: best test score : 0.6111, best train score : 0.4727, best gamma = 1.0, and n_trees = 0
+11-12 12:58 INFO: **** Grid Start *********
+11-12 12:58 INFO: CV with gamma = 0.000000
+11-12 12:58 INFO: train score : 0.710, test score : 1.000, n_trees : 63, step time : 0.016667 minutes
+11-12 12:58 INFO: CV with gamma = 0.500000
+11-12 12:58 INFO: train score : 0.546, test score : 1.000, n_trees : 27, step time : 0.000000 minutes
+11-12 12:58 INFO: CV with gamma = 1.000000
+11-12 12:58 INFO: train score : 0.473, test score : 0.611, n_trees : 0, step time : 0.000000 minutes
+11-12 12:58 INFO: CV with gamma = 1.500000
+11-12 12:58 INFO: train score : 0.524, test score : 0.963, n_trees : 7, step time : 0.000000 minutes
+11-12 12:58 INFO: CV with gamma = 2.000000
+11-12 12:58 INFO: train score : 0.473, test score : 0.611, n_trees : 0, step time : 0.000000 minutes
+11-12 12:58 INFO: CV with gamma = 2.500000
+11-12 12:58 INFO: train score : 0.514, test score : 0.795, n_trees : 15, step time : 0.000000 minutes
+11-12 12:58 INFO: CV with gamma = 3.000000
+11-12 12:58 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.016667 minutes
+11-12 12:58 INFO: CV with gamma = 3.500000
+11-12 12:58 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 12:58 INFO: CV with gamma = 4.000000
+11-12 12:58 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 12:58 INFO: CV with gamma = 4.500000
+11-12 12:58 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 12:58 INFO: CV with gamma = 5.000000
+11-12 12:58 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 12:58 INFO: CV with gamma = 5.500000
+11-12 12:58 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 12:58 INFO: CV with gamma = 6.000000
+11-12 12:58 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 12:58 INFO: CV with gamma = 6.500000
+11-12 12:58 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 12:58 INFO: CV with gamma = 7.000000
+11-12 12:58 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 12:58 INFO: CV with gamma = 7.500000
+11-12 12:58 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.016667 minutes
+11-12 12:58 INFO: CV with gamma = 8.000000
+11-12 12:58 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 12:58 INFO: CV with gamma = 8.500000
+11-12 12:58 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 12:58 INFO: CV with gamma = 9.000000
+11-12 12:58 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 12:58 INFO: CV with gamma = 9.500000
+11-12 12:58 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 12:58 INFO: CV with gamma = 10.000000
+11-12 12:58 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 12:58 INFO: CV with gamma = 10.500000
+11-12 12:58 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 12:58 INFO: CV with gamma = 11.000000
+11-12 12:58 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 12:58 INFO: CV with gamma = 11.500000
+11-12 12:58 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 12:58 INFO: ****** End of grid *********
+11-12 12:58 INFO: best test score : 1.0000, best train score : 0.7096, best gamma = 0.0, and n_trees = 0
+11-12 12:58 INFO: **** Grid Start *********
+11-12 12:58 INFO: CV with eta = 0.100000
+11-12 12:58 INFO: train score : 0.521, test score : 0.736, n_trees : 1, step time : 0.000000 minutes
+11-12 12:58 INFO: CV with eta = 0.200000
+11-12 12:58 INFO: train score : 0.710, test score : 1.000, n_trees : 87, step time : 0.016667 minutes
+11-12 12:58 INFO: CV with eta = 0.300000
+11-12 12:58 INFO: train score : 0.710, test score : 1.000, n_trees : 63, step time : 0.000000 minutes
+11-12 12:58 INFO: ****** End of grid *********
+11-12 12:58 INFO: best test score : 1.0000, best train score : 0.7096, best eta = 0.2, and n_trees = 63
+11-12 12:58 INFO: **** Grid Start *********
+11-12 12:58 INFO: CV with gamma = 1.000000
+11-12 12:58 INFO: train score : 0.473, test score : 0.611, n_trees : 0, step time : 0.000000 minutes
+11-12 12:58 INFO: CV with gamma = 3.000000
+11-12 12:58 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 12:58 INFO: CV with gamma = 5.000000
+11-12 12:58 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 12:58 INFO: CV with gamma = 7.000000
+11-12 12:58 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.016667 minutes
+11-12 12:58 INFO: CV with gamma = 9.000000
+11-12 12:58 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 12:58 INFO: ****** End of grid *********
+11-12 12:58 INFO: best test score : 0.6111, best train score : 0.4727, best gamma = 1.0, and n_trees = 0
+11-12 12:58 INFO: **** Grid Start *********
+11-12 12:58 INFO: CV with gamma = 0.000000
+11-12 12:58 INFO: train score : 0.710, test score : 1.000, n_trees : 87, step time : 0.000000 minutes
+11-12 12:58 INFO: CV with gamma = 0.500000
+11-12 12:58 INFO: train score : 0.502, test score : 1.000, n_trees : 43, step time : 0.000000 minutes
+11-12 12:58 INFO: CV with gamma = 1.000000
+11-12 12:58 INFO: train score : 0.473, test score : 0.611, n_trees : 0, step time : 0.000000 minutes
+11-12 12:58 INFO: CV with gamma = 1.500000
+11-12 12:58 INFO: train score : 0.473, test score : 0.611, n_trees : 0, step time : 0.016667 minutes
+11-12 12:58 INFO: CV with gamma = 2.000000
+11-12 12:58 INFO: train score : 0.473, test score : 0.611, n_trees : 0, step time : 0.000000 minutes
+11-12 12:58 INFO: CV with gamma = 2.500000
+11-12 12:58 INFO: train score : 0.538, test score : 0.824, n_trees : 25, step time : 0.000000 minutes
+11-12 12:58 INFO: CV with gamma = 3.000000
+11-12 12:58 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 12:58 INFO: CV with gamma = 3.500000
+11-12 12:58 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 12:58 INFO: CV with gamma = 4.000000
+11-12 12:58 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 12:58 INFO: CV with gamma = 4.500000
+11-12 12:58 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 12:58 INFO: CV with gamma = 5.000000
+11-12 12:58 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 12:58 INFO: CV with gamma = 5.500000
+11-12 12:58 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 12:58 INFO: CV with gamma = 6.000000
+11-12 12:58 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.016667 minutes
+11-12 12:58 INFO: CV with gamma = 6.500000
+11-12 12:58 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 12:58 INFO: CV with gamma = 7.000000
+11-12 12:58 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 12:58 INFO: CV with gamma = 7.500000
+11-12 12:58 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 12:58 INFO: CV with gamma = 8.000000
+11-12 12:58 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 12:58 INFO: CV with gamma = 8.500000
+11-12 12:58 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 12:58 INFO: CV with gamma = 9.000000
+11-12 12:58 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 12:58 INFO: CV with gamma = 9.500000
+11-12 12:58 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 12:58 INFO: CV with gamma = 10.000000
+11-12 12:58 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 12:58 INFO: CV with gamma = 10.500000
+11-12 12:58 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 12:58 INFO: CV with gamma = 11.000000
+11-12 12:58 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 12:58 INFO: CV with gamma = 11.500000
+11-12 12:58 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.016667 minutes
+11-12 12:58 INFO: ****** End of grid *********
+11-12 12:58 INFO: best test score : 1.0000, best train score : 0.7096, best gamma = 0.0, and n_trees = 87
+11-12 12:58 INFO: **** Grid Start *********
+11-12 12:58 INFO: CV with eta = 0.100000
+11-12 12:58 INFO: train score : 0.521, test score : 0.736, n_trees : 1, step time : 0.000000 minutes
+11-12 12:58 INFO: CV with eta = 0.200000
+11-12 12:58 INFO: train score : 0.710, test score : 1.000, n_trees : 87, step time : 0.000000 minutes
+11-12 12:58 INFO: CV with eta = 0.300000
+11-12 12:58 INFO: train score : 0.710, test score : 1.000, n_trees : 63, step time : 0.000000 minutes
+11-12 12:58 INFO: ****** End of grid *********
+11-12 12:58 INFO: best test score : 1.0000, best train score : 0.7096, best eta = 0.2, and n_trees = 87
+11-12 13:04 INFO: ------------------initialized-----------------
+11-12 13:04 INFO: **** Grid Start *********
+11-12 13:04 INFO: CV with max_depth = 1.000000, and min_child_weight = 1.000000
+11-12 13:04 INFO: train score : 0.579, test score : 1.000, n_trees : 30, step time : 0.016667 minutes
+11-12 13:04 INFO: CV with max_depth = 1.000000, and min_child_weight = 3.000000
+11-12 13:04 INFO: train score : 0.550, test score : 0.727, n_trees : 1, step time : 0.000000 minutes
+11-12 13:04 INFO: CV with max_depth = 1.000000, and min_child_weight = 5.000000
+11-12 13:04 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 13:04 INFO: CV with max_depth = 1.000000, and min_child_weight = 7.000000
+11-12 13:04 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 13:04 INFO: CV with max_depth = 1.000000, and min_child_weight = 9.000000
+11-12 13:04 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.016667 minutes
+11-12 13:04 INFO: CV with max_depth = 3.000000, and min_child_weight = 1.000000
+11-12 13:04 INFO: train score : 0.614, test score : 1.000, n_trees : 28, step time : 0.000000 minutes
+11-12 13:04 INFO: CV with max_depth = 3.000000, and min_child_weight = 3.000000
+11-12 13:04 INFO: train score : 0.550, test score : 0.727, n_trees : 1, step time : 0.000000 minutes
+11-12 13:04 INFO: CV with max_depth = 3.000000, and min_child_weight = 5.000000
+11-12 13:04 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 13:04 INFO: CV with max_depth = 3.000000, and min_child_weight = 7.000000
+11-12 13:04 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 13:04 INFO: CV with max_depth = 3.000000, and min_child_weight = 9.000000
+11-12 13:04 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 13:04 INFO: CV with max_depth = 5.000000, and min_child_weight = 1.000000
+11-12 13:04 INFO: train score : 0.614, test score : 1.000, n_trees : 28, step time : 0.000000 minutes
+11-12 13:04 INFO: CV with max_depth = 5.000000, and min_child_weight = 3.000000
+11-12 13:04 INFO: train score : 0.550, test score : 0.727, n_trees : 1, step time : 0.000000 minutes
+11-12 13:04 INFO: CV with max_depth = 5.000000, and min_child_weight = 5.000000
+11-12 13:04 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.016667 minutes
+11-12 13:04 INFO: CV with max_depth = 5.000000, and min_child_weight = 7.000000
+11-12 13:04 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 13:04 INFO: CV with max_depth = 5.000000, and min_child_weight = 9.000000
+11-12 13:04 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 13:04 INFO: CV with max_depth = 7.000000, and min_child_weight = 1.000000
+11-12 13:04 INFO: train score : 0.614, test score : 1.000, n_trees : 28, step time : 0.000000 minutes
+11-12 13:04 INFO: CV with max_depth = 7.000000, and min_child_weight = 3.000000
+11-12 13:04 INFO: train score : 0.550, test score : 0.727, n_trees : 1, step time : 0.000000 minutes
+11-12 13:04 INFO: CV with max_depth = 7.000000, and min_child_weight = 5.000000
+11-12 13:04 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 13:04 INFO: CV with max_depth = 7.000000, and min_child_weight = 7.000000
+11-12 13:04 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 13:04 INFO: CV with max_depth = 7.000000, and min_child_weight = 9.000000
+11-12 13:04 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 13:04 INFO: CV with max_depth = 9.000000, and min_child_weight = 1.000000
+11-12 13:04 INFO: train score : 0.614, test score : 1.000, n_trees : 28, step time : 0.016667 minutes
+11-12 13:04 INFO: CV with max_depth = 9.000000, and min_child_weight = 3.000000
+11-12 13:04 INFO: train score : 0.550, test score : 0.727, n_trees : 1, step time : 0.000000 minutes
+11-12 13:04 INFO: CV with max_depth = 9.000000, and min_child_weight = 5.000000
+11-12 13:04 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 13:04 INFO: CV with max_depth = 9.000000, and min_child_weight = 7.000000
+11-12 13:04 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 13:04 INFO: CV with max_depth = 9.000000, and min_child_weight = 9.000000
+11-12 13:04 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 13:04 INFO: ****** End of grid *********
+11-12 13:04 INFO: best auc score : 1.0000, best gini score : 0.0000, best train score : 0.5789, best max_depth = 1.0, best min_child_weight = 1.0 and n_trees = 30
+11-12 13:04 INFO: **** Grid Start *********
+11-12 13:04 INFO: CV with max_depth = 0.000000, and min_child_weight = 0.000000
+11-12 13:04 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 13:04 INFO: CV with max_depth = 0.000000, and min_child_weight = 1.000000
+11-12 13:04 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 13:04 INFO: CV with max_depth = 0.000000, and min_child_weight = 2.000000
+11-12 13:04 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.016667 minutes
+11-12 13:04 INFO: CV with max_depth = 1.000000, and min_child_weight = 0.000000
+11-12 13:04 INFO: train score : 0.710, test score : 1.000, n_trees : 63, step time : 0.000000 minutes
+11-12 13:04 INFO: CV with max_depth = 1.000000, and min_child_weight = 1.000000
+11-12 13:04 INFO: train score : 0.579, test score : 1.000, n_trees : 30, step time : 0.016667 minutes
+11-12 13:04 INFO: CV with max_depth = 1.000000, and min_child_weight = 2.000000
+11-12 13:04 INFO: train score : 0.621, test score : 1.000, n_trees : 9, step time : 0.000000 minutes
+11-12 13:04 INFO: CV with max_depth = 2.000000, and min_child_weight = 0.000000
+11-12 13:04 INFO: train score : 0.668, test score : 1.000, n_trees : 45, step time : 0.016667 minutes
+11-12 13:04 INFO: CV with max_depth = 2.000000, and min_child_weight = 1.000000
+11-12 13:04 INFO: train score : 0.614, test score : 1.000, n_trees : 28, step time : 0.000000 minutes
+11-12 13:04 INFO: CV with max_depth = 2.000000, and min_child_weight = 2.000000
+11-12 13:04 INFO: train score : 0.621, test score : 1.000, n_trees : 9, step time : 0.000000 minutes
+11-12 13:04 INFO: ****** End of grid *********
+11-12 13:04 INFO: best auc score : 1.0000, best gini score : 0.0000, best train score : 0.7096, best max_depth = 1.0, best min_child_weight = 0.0 and n_trees = 63
+11-12 13:05 INFO: **** Grid Start *********
+11-12 13:05 INFO: CV with gamma = 1.000000
+11-12 13:05 INFO: train score : 0.473, test score : 0.611, n_trees : 0, step time : 0.016667 minutes
+11-12 13:05 INFO: CV with gamma = 3.000000
+11-12 13:05 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 13:05 INFO: CV with gamma = 5.000000
+11-12 13:05 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 13:05 INFO: CV with gamma = 7.000000
+11-12 13:05 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 13:05 INFO: CV with gamma = 9.000000
+11-12 13:05 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 13:05 INFO: ****** End of grid *********
+11-12 13:05 INFO: best auc score : 0.6111, best gini score : -0.7778, best train score : 0.4727, best gamma = 1.0, and n_trees = 0
+11-12 13:05 INFO: **** Grid Start *********
+11-12 13:05 INFO: CV with gamma = 0.000000
+11-12 13:05 INFO: train score : 0.710, test score : 1.000, n_trees : 63, step time : 0.000000 minutes
+11-12 13:05 INFO: CV with gamma = 0.500000
+11-12 13:05 INFO: train score : 0.546, test score : 1.000, n_trees : 27, step time : 0.016667 minutes
+11-12 13:05 INFO: CV with gamma = 1.000000
+11-12 13:05 INFO: train score : 0.473, test score : 0.611, n_trees : 0, step time : 0.000000 minutes
+11-12 13:05 INFO: CV with gamma = 1.500000
+11-12 13:05 INFO: train score : 0.524, test score : 0.963, n_trees : 7, step time : 0.000000 minutes
+11-12 13:05 INFO: CV with gamma = 2.000000
+11-12 13:05 INFO: train score : 0.473, test score : 0.611, n_trees : 0, step time : 0.000000 minutes
+11-12 13:05 INFO: CV with gamma = 2.500000
+11-12 13:05 INFO: train score : 0.514, test score : 0.795, n_trees : 15, step time : 0.000000 minutes
+11-12 13:05 INFO: CV with gamma = 3.000000
+11-12 13:05 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 13:05 INFO: CV with gamma = 3.500000
+11-12 13:05 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 13:05 INFO: CV with gamma = 4.000000
+11-12 13:05 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.016667 minutes
+11-12 13:05 INFO: CV with gamma = 4.500000
+11-12 13:05 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 13:05 INFO: CV with gamma = 5.000000
+11-12 13:05 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 13:05 INFO: CV with gamma = 5.500000
+11-12 13:05 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 13:05 INFO: CV with gamma = 6.000000
+11-12 13:05 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 13:05 INFO: CV with gamma = 6.500000
+11-12 13:05 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 13:05 INFO: CV with gamma = 7.000000
+11-12 13:05 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 13:05 INFO: CV with gamma = 7.500000
+11-12 13:05 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.016667 minutes
+11-12 13:05 INFO: CV with gamma = 8.000000
+11-12 13:05 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 13:05 INFO: CV with gamma = 8.500000
+11-12 13:05 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 13:05 INFO: CV with gamma = 9.000000
+11-12 13:05 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 13:05 INFO: CV with gamma = 9.500000
+11-12 13:05 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 13:05 INFO: CV with gamma = 10.000000
+11-12 13:05 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.016667 minutes
+11-12 13:05 INFO: CV with gamma = 10.500000
+11-12 13:05 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 13:05 INFO: CV with gamma = 11.000000
+11-12 13:05 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 13:05 INFO: CV with gamma = 11.500000
+11-12 13:05 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 13:05 INFO: ****** End of grid *********
+11-12 13:05 INFO: best auc score : 1.0000, best gini score : 0.0000, best train score : 0.7096, best gamma = 0.0, and n_trees = 63
+11-12 13:05 INFO: **** Grid Start *********
+11-12 13:05 INFO: CV with eta = 0.100000
+11-12 13:05 INFO: train score : 0.521, test score : 0.736, n_trees : 1, step time : 0.000000 minutes
+11-12 13:05 INFO: CV with eta = 0.200000
+11-12 13:05 INFO: train score : 0.710, test score : 1.000, n_trees : 87, step time : 0.016667 minutes
+11-12 13:05 INFO: CV with eta = 0.300000
+11-12 13:05 INFO: train score : 0.710, test score : 1.000, n_trees : 63, step time : 0.000000 minutes
+11-12 13:05 INFO: ****** End of grid *********
+11-12 13:05 INFO: best auc score : 1.0000, best gini score : 0.0000, best train score : 0.7096, best eta = 0.2, and n_trees = 87
+11-12 13:06 INFO: **** Grid Start *********
+11-12 13:06 INFO: CV with max_depth = 1.000000, and min_child_weight = 1.000000
+11-12 13:06 INFO: train score : 0.640, test score : 1.000, n_trees : 53, step time : 0.016667 minutes
+11-12 13:06 INFO: CV with max_depth = 1.000000, and min_child_weight = 3.000000
+11-12 13:06 INFO: train score : 0.594, test score : 0.776, n_trees : 3, step time : 0.000000 minutes
+11-12 13:06 INFO: CV with max_depth = 1.000000, and min_child_weight = 5.000000
+11-12 13:06 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 13:06 INFO: CV with max_depth = 1.000000, and min_child_weight = 7.000000
+11-12 13:06 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 13:06 INFO: CV with max_depth = 1.000000, and min_child_weight = 9.000000
+11-12 13:06 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 13:06 INFO: CV with max_depth = 3.000000, and min_child_weight = 1.000000
+11-12 13:06 INFO: train score : 0.656, test score : 1.000, n_trees : 42, step time : 0.000000 minutes
+11-12 13:06 INFO: CV with max_depth = 3.000000, and min_child_weight = 3.000000
+11-12 13:06 INFO: train score : 0.594, test score : 0.776, n_trees : 3, step time : 0.000000 minutes
+11-12 13:06 INFO: CV with max_depth = 3.000000, and min_child_weight = 5.000000
+11-12 13:06 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.016667 minutes
+11-12 13:06 INFO: CV with max_depth = 3.000000, and min_child_weight = 7.000000
+11-12 13:06 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 13:06 INFO: CV with max_depth = 3.000000, and min_child_weight = 9.000000
+11-12 13:06 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 13:06 INFO: CV with max_depth = 5.000000, and min_child_weight = 1.000000
+11-12 13:06 INFO: train score : 0.656, test score : 1.000, n_trees : 42, step time : 0.000000 minutes
+11-12 13:06 INFO: CV with max_depth = 5.000000, and min_child_weight = 3.000000
+11-12 13:06 INFO: train score : 0.594, test score : 0.776, n_trees : 3, step time : 0.000000 minutes
+11-12 13:06 INFO: CV with max_depth = 5.000000, and min_child_weight = 5.000000
+11-12 13:06 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 13:06 INFO: CV with max_depth = 5.000000, and min_child_weight = 7.000000
+11-12 13:06 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 13:06 INFO: CV with max_depth = 5.000000, and min_child_weight = 9.000000
+11-12 13:06 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.016667 minutes
+11-12 13:06 INFO: CV with max_depth = 7.000000, and min_child_weight = 1.000000
+11-12 13:06 INFO: train score : 0.656, test score : 1.000, n_trees : 42, step time : 0.000000 minutes
+11-12 13:06 INFO: CV with max_depth = 7.000000, and min_child_weight = 3.000000
+11-12 13:06 INFO: train score : 0.594, test score : 0.776, n_trees : 3, step time : 0.000000 minutes
+11-12 13:06 INFO: CV with max_depth = 7.000000, and min_child_weight = 5.000000
+11-12 13:06 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 13:06 INFO: CV with max_depth = 7.000000, and min_child_weight = 7.000000
+11-12 13:06 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 13:06 INFO: CV with max_depth = 7.000000, and min_child_weight = 9.000000
+11-12 13:06 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 13:06 INFO: CV with max_depth = 9.000000, and min_child_weight = 1.000000
+11-12 13:06 INFO: train score : 0.656, test score : 1.000, n_trees : 42, step time : 0.016667 minutes
+11-12 13:06 INFO: CV with max_depth = 9.000000, and min_child_weight = 3.000000
+11-12 13:06 INFO: train score : 0.594, test score : 0.776, n_trees : 3, step time : 0.000000 minutes
+11-12 13:06 INFO: CV with max_depth = 9.000000, and min_child_weight = 5.000000
+11-12 13:06 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 13:06 INFO: CV with max_depth = 9.000000, and min_child_weight = 7.000000
+11-12 13:06 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 13:06 INFO: CV with max_depth = 9.000000, and min_child_weight = 9.000000
+11-12 13:06 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 13:06 INFO: ****** End of grid *********
+11-12 13:06 INFO: best auc score : 1.0000, best gini score : 1.0000, best train score : 0.6404, best max_depth = 1.0, best min_child_weight = 1.0 and n_trees = 53
+11-12 13:06 INFO: **** Grid Start *********
+11-12 13:06 INFO: CV with max_depth = 0.000000, and min_child_weight = 0.000000
+11-12 13:06 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 13:06 INFO: CV with max_depth = 0.000000, and min_child_weight = 1.000000
+11-12 13:06 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.016667 minutes
+11-12 13:06 INFO: CV with max_depth = 0.000000, and min_child_weight = 2.000000
+11-12 13:06 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 13:06 INFO: CV with max_depth = 1.000000, and min_child_weight = 0.000000
+11-12 13:06 INFO: train score : 0.710, test score : 1.000, n_trees : 87, step time : 0.000000 minutes
+11-12 13:06 INFO: CV with max_depth = 1.000000, and min_child_weight = 1.000000
+11-12 13:06 INFO: train score : 0.640, test score : 1.000, n_trees : 53, step time : 0.000000 minutes
+11-12 13:06 INFO: CV with max_depth = 1.000000, and min_child_weight = 2.000000
+11-12 13:06 INFO: train score : 0.691, test score : 0.997, n_trees : 11, step time : 0.000000 minutes
+11-12 13:06 INFO: CV with max_depth = 2.000000, and min_child_weight = 0.000000
+11-12 13:06 INFO: train score : 0.658, test score : 1.000, n_trees : 31, step time : 0.000000 minutes
+11-12 13:06 INFO: CV with max_depth = 2.000000, and min_child_weight = 1.000000
+11-12 13:06 INFO: train score : 0.656, test score : 1.000, n_trees : 42, step time : 0.016667 minutes
+11-12 13:06 INFO: CV with max_depth = 2.000000, and min_child_weight = 2.000000
+11-12 13:06 INFO: train score : 0.691, test score : 0.997, n_trees : 11, step time : 0.000000 minutes
+11-12 13:06 INFO: ****** End of grid *********
+11-12 13:06 INFO: best auc score : 1.0000, best gini score : 1.0000, best train score : 0.7096, best max_depth = 1.0, best min_child_weight = 0.0 and n_trees = 87
+11-12 13:06 INFO: **** Grid Start *********
+11-12 13:06 INFO: CV with gamma = 1.000000
+11-12 13:06 INFO: train score : 0.473, test score : 0.611, n_trees : 0, step time : 0.016667 minutes
+11-12 13:06 INFO: CV with gamma = 3.000000
+11-12 13:06 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 13:06 INFO: CV with gamma = 5.000000
+11-12 13:06 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 13:06 INFO: CV with gamma = 7.000000
+11-12 13:06 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 13:06 INFO: CV with gamma = 9.000000
+11-12 13:06 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 13:06 INFO: ****** End of grid *********
+11-12 13:06 INFO: best auc score : 0.6111, best gini score : 0.2222, best train score : 0.4727, best gamma = 1.0, and n_trees = 0
+11-12 13:06 INFO: **** Grid Start *********
+11-12 13:06 INFO: CV with gamma = 0.000000
+11-12 13:06 INFO: train score : 0.710, test score : 1.000, n_trees : 87, step time : 0.000000 minutes
+11-12 13:06 INFO: CV with gamma = 0.500000
+11-12 13:06 INFO: train score : 0.502, test score : 1.000, n_trees : 43, step time : 0.016667 minutes
+11-12 13:06 INFO: CV with gamma = 1.000000
+11-12 13:06 INFO: train score : 0.473, test score : 0.611, n_trees : 0, step time : 0.000000 minutes
+11-12 13:06 INFO: CV with gamma = 1.500000
+11-12 13:06 INFO: train score : 0.473, test score : 0.611, n_trees : 0, step time : 0.000000 minutes
+11-12 13:06 INFO: CV with gamma = 2.000000
+11-12 13:06 INFO: train score : 0.473, test score : 0.611, n_trees : 0, step time : 0.000000 minutes
+11-12 13:06 INFO: CV with gamma = 2.500000
+11-12 13:06 INFO: train score : 0.538, test score : 0.824, n_trees : 25, step time : 0.000000 minutes
+11-12 13:06 INFO: CV with gamma = 3.000000
+11-12 13:06 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 13:06 INFO: CV with gamma = 3.500000
+11-12 13:06 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 13:06 INFO: CV with gamma = 4.000000
+11-12 13:06 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.016667 minutes
+11-12 13:06 INFO: CV with gamma = 4.500000
+11-12 13:06 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 13:06 INFO: CV with gamma = 5.000000
+11-12 13:06 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 13:06 INFO: CV with gamma = 5.500000
+11-12 13:06 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 13:06 INFO: CV with gamma = 6.000000
+11-12 13:06 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 13:06 INFO: CV with gamma = 6.500000
+11-12 13:06 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 13:06 INFO: CV with gamma = 7.000000
+11-12 13:06 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 13:06 INFO: CV with gamma = 7.500000
+11-12 13:06 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 13:06 INFO: CV with gamma = 8.000000
+11-12 13:06 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 13:06 INFO: CV with gamma = 8.500000
+11-12 13:06 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.016667 minutes
+11-12 13:06 INFO: CV with gamma = 9.000000
+11-12 13:06 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 13:06 INFO: CV with gamma = 9.500000
+11-12 13:06 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 13:06 INFO: CV with gamma = 10.000000
+11-12 13:06 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 13:06 INFO: CV with gamma = 10.500000
+11-12 13:06 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 13:06 INFO: CV with gamma = 11.000000
+11-12 13:06 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 13:06 INFO: CV with gamma = 11.500000
+11-12 13:06 INFO: train score : 0.500, test score : 0.500, n_trees : 0, step time : 0.000000 minutes
+11-12 13:06 INFO: ****** End of grid *********
+11-12 13:06 INFO: best auc score : 1.0000, best gini score : 1.0000, best train score : 0.7096, best gamma = 0.0, and n_trees = 87
+11-12 13:06 INFO: **** Grid Start *********
+11-12 13:06 INFO: CV with eta = 0.100000
+11-12 13:06 INFO: train score : 0.521, test score : 0.736, n_trees : 1, step time : 0.000000 minutes
+11-12 13:06 INFO: CV with eta = 0.200000
+11-12 13:06 INFO: train score : 0.710, test score : 1.000, n_trees : 87, step time : 0.016667 minutes
+11-12 13:06 INFO: CV with eta = 0.300000
+11-12 13:06 INFO: train score : 0.710, test score : 1.000, n_trees : 63, step time : 0.000000 minutes
+11-12 13:06 INFO: ****** End of grid *********
+11-12 13:06 INFO: best auc score : 1.0000, best gini score : 1.0000, best train score : 0.7096, best eta = 0.2, and n_trees = 87
+11-14 14:39 INFO: ------------------initialized-----------------
+11-14 14:39 INFO: **** Grid Start *********
+11-14 14:39 INFO: CV with max_depth = 1.0000, min_child_weight = 1.0000, 
+11-14 14:41 INFO: **** Grid Start *********
+11-14 14:41 INFO: CV with max_depth = 1.0000, min_child_weight = 1.0000, 
+11-14 14:41 INFO: train score : 0.6122, test score : 0.6719, n_trees : 38, step time : 0.0 minutes
+11-14 14:41 INFO: CV with max_depth = 1.0000, min_child_weight = 3.0000, 
+11-14 14:41 INFO: train score : 0.6122, test score : 0.6719, n_trees : 38, step time : 0.0 minutes
+11-14 14:41 INFO: CV with max_depth = 1.0000, min_child_weight = 5.0000, 
+11-14 14:41 INFO: train score : 0.6122, test score : 0.6719, n_trees : 38, step time : 0.0 minutes
+11-14 14:41 INFO: CV with max_depth = 1.0000, min_child_weight = 7.0000, 
+11-14 14:41 INFO: train score : 0.6122, test score : 0.6719, n_trees : 38, step time : 0.0 minutes
+11-14 14:41 INFO: CV with max_depth = 1.0000, min_child_weight = 9.0000, 
+11-14 14:41 INFO: train score : 0.6122, test score : 0.6719, n_trees : 38, step time : 0.0 minutes
+11-14 14:41 INFO: CV with max_depth = 3.0000, min_child_weight = 1.0000, 
+11-14 14:41 INFO: train score : 0.6029, test score : 0.8387, n_trees : 27, step time : 0.0 minutes
+11-14 14:41 INFO: CV with max_depth = 3.0000, min_child_weight = 3.0000, 
+11-14 14:41 INFO: train score : 0.6060, test score : 0.8378, n_trees : 39, step time : 0.0 minutes
+11-14 14:41 INFO: CV with max_depth = 3.0000, min_child_weight = 5.0000, 
+11-14 14:41 INFO: train score : 0.6026, test score : 0.8375, n_trees : 13, step time : 0.0 minutes
+11-14 14:41 INFO: CV with max_depth = 3.0000, min_child_weight = 7.0000, 
+11-14 14:41 INFO: train score : 0.6027, test score : 0.8368, n_trees : 13, step time : 0.0 minutes
+11-14 14:41 INFO: CV with max_depth = 3.0000, min_child_weight = 9.0000, 
+11-14 14:41 INFO: train score : 0.6026, test score : 0.8336, n_trees : 13, step time : 0.1 minutes
+11-14 14:41 INFO: CV with max_depth = 5.0000, min_child_weight = 1.0000, 
+11-14 14:41 INFO: train score : 0.5806, test score : 0.8598, n_trees : 6, step time : 0.0 minutes
+11-14 14:41 INFO: CV with max_depth = 5.0000, min_child_weight = 3.0000, 
+11-14 14:41 INFO: train score : 0.5775, test score : 0.9752, n_trees : 15, step time : 0.1 minutes
+11-14 14:41 INFO: CV with max_depth = 5.0000, min_child_weight = 5.0000, 
+11-14 14:41 INFO: train score : 0.5773, test score : 0.8589, n_trees : 6, step time : 0.1 minutes
+11-14 14:41 INFO: CV with max_depth = 5.0000, min_child_weight = 7.0000, 
+11-14 14:42 INFO: **** Grid Start *********
+11-14 14:42 INFO: CV with max_depth = 1.0000, min_child_weight = 1.0000, 
+11-14 14:42 INFO: 	train score : 0.6122, test score : 0.6719, n_trees : 38, step time : 0.0 minutes
+11-14 14:42 INFO: CV with max_depth = 1.0000, min_child_weight = 3.0000, 
+11-14 14:42 INFO: 	train score : 0.6122, test score : 0.6719, n_trees : 38, step time : 0.0 minutes
+11-14 14:42 INFO: CV with max_depth = 1.0000, min_child_weight = 5.0000, 
+11-14 14:42 INFO: 	train score : 0.6122, test score : 0.6719, n_trees : 38, step time : 0.0 minutes
+11-14 14:42 INFO: CV with max_depth = 1.0000, min_child_weight = 7.0000, 
+11-14 14:42 INFO: 	train score : 0.6122, test score : 0.6719, n_trees : 38, step time : 0.0 minutes
+11-14 14:42 INFO: CV with max_depth = 1.0000, min_child_weight = 9.0000, 
+11-14 14:42 INFO: 	train score : 0.6122, test score : 0.6719, n_trees : 38, step time : 0.0 minutes
+11-14 14:42 INFO: CV with max_depth = 3.0000, min_child_weight = 1.0000, 
+11-14 14:42 INFO: 	train score : 0.6029, test score : 0.8387, n_trees : 27, step time : 0.0 minutes
+11-14 14:42 INFO: CV with max_depth = 3.0000, min_child_weight = 3.0000, 
+11-14 14:42 INFO: 	train score : 0.6060, test score : 0.8378, n_trees : 39, step time : 0.1 minutes
+11-14 14:42 INFO: CV with max_depth = 3.0000, min_child_weight = 5.0000, 
+11-14 14:42 INFO: **** Grid Start *********
+11-14 14:42 INFO: CV with max_depth = 1.0000, min_child_weight = 1.0000, 
+11-14 14:42 INFO:  train score : 0.6122, test score : 0.6719, n_trees : 38, step time : 0.0 minutes
+11-14 14:42 INFO: CV with max_depth = 1.0000, min_child_weight = 3.0000, 
+11-14 14:42 INFO:  train score : 0.6122, test score : 0.6719, n_trees : 38, step time : 0.0 minutes
+11-14 14:42 INFO: CV with max_depth = 1.0000, min_child_weight = 5.0000, 
+11-14 14:42 INFO:  train score : 0.6122, test score : 0.6719, n_trees : 38, step time : 0.0 minutes
+11-14 14:42 INFO: CV with max_depth = 1.0000, min_child_weight = 7.0000, 
+11-14 14:42 INFO:  train score : 0.6122, test score : 0.6719, n_trees : 38, step time : 0.0 minutes
+11-14 14:42 INFO: CV with max_depth = 1.0000, min_child_weight = 9.0000, 
+11-14 14:42 INFO:  train score : 0.6122, test score : 0.6719, n_trees : 38, step time : 0.0 minutes
+11-14 14:42 INFO: CV with max_depth = 3.0000, min_child_weight = 1.0000, 
+11-14 14:42 INFO:  train score : 0.6029, test score : 0.8387, n_trees : 27, step time : 0.0 minutes
+11-14 14:42 INFO: CV with max_depth = 3.0000, min_child_weight = 3.0000, 
+11-14 14:42 INFO:  train score : 0.6060, test score : 0.8378, n_trees : 39, step time : 0.0 minutes
+11-14 14:42 INFO: CV with max_depth = 3.0000, min_child_weight = 5.0000, 
+11-14 14:56 INFO: **** Grid Start *********
+11-14 14:56 INFO: CV with max_delta_step = 0.0000, scale_pos_weight = 1.0000, 
+11-14 14:56 INFO: **** Grid Start *********
+11-14 14:56 INFO: CV with max_delta_step = 0.0000, scale_pos_weight = 1.0000, 
+11-14 14:56 INFO: train score : 0.6026, test score : 0.8375, n_trees : 13, step time : 0.0 minutes
+11-14 14:56 INFO: ****** End of grid *********
+11-14 14:56 INFO: best auc score : 0.8375, best gini score : 0.6751, best train score : 0.6026, best n_trees = 13, best max_delta_step = 0.0000best scale_pos_weight = 1.0000
+11-14 14:57 INFO: **** Grid Start *********
+11-14 14:57 INFO: CV with max_delta_step = 0.0000, scale_pos_weight = 1.0000, 
+11-14 14:57 INFO: train score : 0.6026, test score : 0.8375, n_trees : 13, step time : 0.0 minutes
+11-14 14:57 INFO: CV with max_delta_step = 1.0000, scale_pos_weight = 1.0000, 
+11-14 14:57 INFO: train score : 0.6115, test score : 0.8228, n_trees : 37, step time : 0.0 minutes
+11-14 14:57 INFO: CV with max_delta_step = 1.0000, scale_pos_weight = 1.0000, 
+11-14 14:57 INFO: train score : 0.6115, test score : 0.8228, n_trees : 37, step time : 0.0 minutes
+11-14 14:57 INFO: CV with max_delta_step = 1.0000, scale_pos_weight = 1.0000, 
+11-14 14:57 INFO: train score : 0.6115, test score : 0.8228, n_trees : 37, step time : 0.0 minutes
+11-14 14:57 INFO: CV with max_delta_step = 1.0000, scale_pos_weight = 1.0000, 
+11-14 14:57 INFO: **** Grid Start *********
+11-14 14:57 INFO: CV with max_delta_step = 0.0000, scale_pos_weight = 1.0000, 
+11-14 14:58 INFO: train score : 0.6026, test score : 0.8375, n_trees : 13, step time : 0.0 minutes
+11-14 14:58 INFO: CV with max_delta_step = 1.0000, scale_pos_weight = 1.0000, 
+11-14 14:58 INFO: train score : 0.6115, test score : 0.8228, n_trees : 37, step time : 0.0 minutes
+11-14 14:58 INFO: CV with max_delta_step = 1.0000, scale_pos_weight = 1.0000, 
+11-14 14:58 INFO: train score : 0.6115, test score : 0.8228, n_trees : 37, step time : 0.0 minutes
+11-14 14:58 INFO: CV with max_delta_step = 1.0000, scale_pos_weight = 1.0000, 
+11-14 14:58 INFO: train score : 0.6115, test score : 0.8228, n_trees : 37, step time : 0.0 minutes
+11-14 14:58 INFO: CV with max_delta_step = 1.0000, scale_pos_weight = 1.0000, 
+11-14 14:58 INFO: **** Grid Start *********
+11-14 14:58 INFO: CV with max_delta_step = 0.0000, scale_pos_weight = 1.0000, 
+11-14 14:58 INFO: train score : 0.6026, test score : 0.8375, n_trees : 13, step time : 0.0 minutes
+11-14 14:58 INFO: CV with max_delta_step = 1.0000, scale_pos_weight = 1.0000, 
+11-14 14:58 INFO: train score : 0.6115, test score : 0.8228, n_trees : 37, step time : 0.0 minutes
+11-14 14:58 INFO: CV with max_delta_step = 1.0000, scale_pos_weight = 1.0000, 
+11-14 14:58 INFO: train score : 0.6115, test score : 0.8228, n_trees : 37, step time : 0.0 minutes
+11-14 14:58 INFO: CV with max_delta_step = 1.0000, scale_pos_weight = 1.0000, 
+11-14 14:58 INFO: train score : 0.6115, test score : 0.8228, n_trees : 37, step time : 0.1 minutes
+11-14 14:58 INFO: CV with max_delta_step = 1.0000, scale_pos_weight = 1.0000, 
+11-14 14:58 INFO: train score : 0.6115, test score : 0.8228, n_trees : 37, step time : 0.0 minutes
+11-14 14:58 INFO: ****** End of grid *********
+11-14 14:58 INFO: best auc score : 0.8375, best gini score : 0.6751, best train score : 0.6026, best n_trees = 13, best max_delta_step = 0.0000best scale_pos_weight = 1.0000
+11-14 14:59 INFO: **** Grid Start *********
+11-14 14:59 INFO: CV with max_delta_step = 0.0000, scale_pos_weight = 1.0000, 
+11-14 14:59 INFO: train score : 0.6026, test score : 0.8375, n_trees : 13, step time : 0.0 minutes
+11-14 14:59 INFO: ****** End of grid *********
+11-14 14:59 INFO: best auc score : 0.8375, best gini score : 0.6751, best train score : 0.6026, best n_trees = 13, best max_delta_step = 0.0000best scale_pos_weight = 1.0000
+11-14 15:00 INFO: **** Grid Start *********
+11-14 15:00 INFO: CV with max_delta_step = 0.0000, scale_pos_weight = 1.0000, 
+11-14 15:00 INFO: train score : 0.6026, test score : 0.8375, n_trees : 13, step time : 0.0 minutes
+11-14 15:00 INFO: ****** End of grid *********
+11-14 15:00 INFO: best auc score : 0.8375, best gini score : 0.6751, best train score : 0.6026, best n_trees = 13, best max_delta_step = 0.0000best scale_pos_weight = 1.0000
+11-14 15:00 INFO: **** Grid Start *********
+11-14 15:00 INFO: CV with max_delta_step = 0.0000, scale_pos_weight = 1.0000, 
+11-14 15:00 INFO: train score : 0.6026, test score : 0.8375, n_trees : 13, step time : 0.0 minutes
+11-14 15:00 INFO: ****** End of grid *********
+11-14 15:00 INFO: best auc score : 0.8375, best gini score : 0.6751, best train score : 0.6026, best n_trees = 13, best max_delta_step = 0.0000best scale_pos_weight = 1.0000
+11-14 20:34 INFO: ------------------initialized-----------------
+11-14 20:34 INFO: **** Grid Start *********
+11-14 20:34 INFO: CV with max_delta_step = 0.0000, scale_pos_weight = 1.0000, 
+11-14 20:35 INFO: train score : 0.5737, test score : 1.0000, n_trees : 39, step time : 0.1 minutes
+11-14 20:35 INFO: ****** End of grid *********
+11-14 20:35 INFO: best auc score : 1.0000, best gini score : 1.0000, best train score : 0.5737, best n_trees = 39, best max_delta_step = 0.0000best scale_pos_weight = 1.0000
+11-14 20:47 INFO: **** Grid Start *********
+11-14 20:47 INFO: CV with max_delta_step = 0.0000, scale_pos_weight = 1.0000, 
+11-14 20:48 INFO: train score : 0.5737, test score : 1.0000, n_trees : 39, step time : 0.1 minutes
+11-14 20:48 INFO: ****** End of grid *********
+11-14 20:48 INFO: best auc score : 1.0000, best gini score : 1.0000, best train score : 0.5737, best n_trees = 39, best max_delta_step = 0.0000best scale_pos_weight = 1.0000
+11-14 20:49 INFO: **** Grid Start *********
+11-14 20:49 INFO: CV with max_delta_step = 0.0000, scale_pos_weight = 1.0000, 
+11-14 20:49 INFO: train score : 0.5737, test score : 1.0000, n_trees : 39, step time : 0.1 minutes
+11-14 20:49 INFO: ****** End of grid *********
+11-14 20:49 INFO: best auc score : 1.0000, best gini score : 1.0000, best train score : 0.5737, best n_trees = 39, best max_delta_step = 0.0000best scale_pos_weight = 1.0000
+11-14 20:50 INFO: **** Grid Start *********
+11-14 20:50 INFO: CV with max_delta_step = 0.0000, scale_pos_weight = 1.0000, 
+11-14 20:50 INFO: train score : 0.5737, test score : 1.0000, n_trees : 39, step time : 0.1 minutes
+11-14 20:50 INFO: ****** End of grid *********
+11-14 20:50 INFO: best auc score : 1.0000, best gini score : 1.0000, best train score : 0.5737, best n_trees = 39, best max_delta_step = 0.0000best scale_pos_weight = 1.0000
+11-14 20:59 INFO: **** Grid Start *********
+11-14 20:59 INFO: CV with max_delta_step = 0.0000, scale_pos_weight = 1.0000, 
+11-14 20:59 INFO: train score : 0.5737, test score : 1.0000, n_trees : 39, step time : 0.1 minutes
+11-14 20:59 INFO: ****** End of grid *********
+11-14 20:59 INFO: best auc score : 1.0000, best gini score : 1.0000, best train score : 0.5737, best n_trees = 39, best max_delta_step = 0.0000best scale_pos_weight = 1.0000
+11-14 21:28 INFO: **** Grid Start *********
+11-14 21:28 INFO: CV with max_delta_step = 0, scale_pos_weight = 1, 
+11-14 21:28 INFO: train score : 0.573739, test score : 0.999999, n_trees : 39, step time : 0.1 minutes
+11-14 21:28 INFO: ****** End of grid *********
+11-14 21:28 INFO: best auc score : 0.999999, best gini score : 0.999997, best train score : 0.573739, best n_trees = 39, best max_delta_step = 0fbest scale_pos_weight = 1f
+11-14 21:28 INFO: **** Grid Start *********
+11-14 21:28 INFO: CV with max_delta_step = 0, scale_pos_weight = 1, 
+11-14 21:28 INFO: train score : 0.573739, test score : 0.999999, n_trees : 39, step time : 0.1 minutes
+11-14 21:28 INFO: ****** End of grid *********
+11-14 21:28 INFO: best auc score : 0.999999, best gini score : 0.999997, best train score : 0.573739, best n_trees = 39, best max_delta_step = 0, best scale_pos_weight = 1, 
+11-14 22:02 INFO: **** Grid Start *********
+11-14 22:02 INFO: CV with max_delta_step = 0, scale_pos_weight = 1, 
+11-14 22:02 INFO: train score : 0.573739, test score : 0.999999, n_trees : 39, step time : 0.1 minutes
+11-14 22:02 INFO: ****** End of grid *********
+11-14 22:02 INFO: best auc score : 0.999999, best gini score : 0.999997, best train score : 0.573739, best n_trees = 39, best max_delta_step = 0, best scale_pos_weight = 1, 
+11-14 22:29 INFO: **** Grid Start *********
+11-14 22:29 INFO: CV with max_delta_step = 0, scale_pos_weight = 1, 
+11-14 22:29 INFO: train score : 0.638254, test score : 0.999999, n_trees : 16, step time : 0.1 minutes
+11-14 22:29 INFO: ****** End of grid *********
+11-14 22:29 INFO: best auc score : 0.999999, best gini score : 0.999997, best train score : 0.638254, best n_trees = 16, best max_delta_step = 0, best scale_pos_weight = 1, 
+11-14 22:30 INFO: **** Grid Start *********
+11-14 22:30 INFO: CV with max_delta_step = 0, scale_pos_weight = 1, 
+11-14 22:30 INFO: train score : 0.573739, test score : 0.999999, n_trees : 39, step time : 0.1 minutes
+11-14 22:30 INFO: ****** End of grid *********
+11-14 22:30 INFO: best auc score : 0.999999, best gini score : 0.999997, best train score : 0.573739, best n_trees = 39, best max_delta_step = 0, best scale_pos_weight = 1, 
+11-14 22:37 INFO: **** Grid Start *********
+11-14 22:37 INFO: CV with max_delta_step = 0, scale_pos_weight = 1, 
+11-14 22:37 INFO: **** Grid Start *********
+11-14 22:37 INFO: CV with max_delta_step = 0, scale_pos_weight = 1, 
+11-14 22:38 INFO: **** Grid Start *********
+11-14 22:38 INFO: CV with max_delta_step = 0, scale_pos_weight = 1, 
+11-14 22:38 INFO: train score : 0.573739, test score : 0.999999, n_trees : 39, step time : 0.1 minutes
+11-14 22:38 INFO: ****** End of grid *********
+11-14 22:38 INFO: best auc score : 0.999999, best gini score : 0.999997, best train score : 0.573739, best n_trees = 39, best max_delta_step = 0, best scale_pos_weight = 1, 
+11-14 22:40 INFO: **** Grid Start *********
+11-14 22:40 INFO: CV with max_delta_step = 0, scale_pos_weight = 1, 
+11-14 22:40 INFO: train score : 0.573739, test score : 0.999999, n_trees : 39, step time : 0.1 minutes
+11-14 22:40 INFO: ****** End of grid *********
+11-14 22:40 INFO: best auc score : 0.999999, best gini score : 0.999997, best train score : 0.573739, best n_trees = 39, best max_delta_step = 0, best scale_pos_weight = 1, 
+11-14 22:48 INFO: **** Grid Start *********
+11-14 22:48 INFO: CV with max_delta_step = 0, scale_pos_weight = 1, 
+11-14 22:48 INFO: train score : 0.539765, test score : 0.998186, n_trees : 6, step time : 0.0 minutes
+11-14 22:48 INFO: ****** End of grid *********
+11-14 22:48 INFO: best auc score : 0.998186, best gini score : 0.996372, best train score : 0.539765, best n_trees = 6, best max_delta_step = 0, best scale_pos_weight = 1, 
+11-14 22:48 INFO: **** Grid Start *********
+11-14 22:48 INFO: CV with max_delta_step = 0, scale_pos_weight = 1, 
+11-14 22:48 INFO: train score : 0.618419, test score : 0.998186, n_trees : 4, step time : 0.0 minutes
+11-14 22:48 INFO: ****** End of grid *********
+11-14 22:48 INFO: best auc score : 0.998186, best gini score : 0.996372, best train score : 0.618419, best n_trees = 4, best max_delta_step = 0, best scale_pos_weight = 1, 
+11-18 22:22 INFO: ------------------initialized-----------------
+11-18 22:28 INFO: ------------------initialized-----------------
+11-18 22:30 INFO: ------------------initialized-----------------
+11-18 22:31 INFO: **** Grid Start *********
+11-18 22:31 INFO: CV with max_delta_step = 0, scale_pos_weight = 1, 
+11-18 22:32 INFO: ------------------initialized-----------------
+11-18 22:32 INFO: **** Grid Start *********
+11-18 22:32 INFO: CV with max_delta_step = 0, scale_pos_weight = 1, 
+11-18 22:33 INFO: ------------------initialized-----------------
+11-18 22:33 INFO: **** Grid Start *********
+11-18 22:33 INFO: CV with max_delta_step = 0, scale_pos_weight = 1, 
+11-18 22:34 INFO: ------------------initialized-----------------
+11-18 22:34 INFO: **** Grid Start *********
+11-18 22:34 INFO: CV with max_delta_step = 0, scale_pos_weight = 1, 
+11-18 22:37 INFO: ------------------initialized-----------------
+11-18 22:37 INFO: **** Grid Start *********
+11-18 22:37 INFO: CV with max_delta_step = 0, scale_pos_weight = 1, 
+11-18 22:56 INFO: ------------------initialized-----------------
+11-18 22:57 INFO: **** Grid Start *********
+11-18 22:57 INFO: CV with max_delta_step = 0, scale_pos_weight = 1, 
+11-18 22:57 INFO: ------------------initialized-----------------
+11-18 22:57 INFO: **** Grid Start *********
+11-18 22:57 INFO: CV with max_delta_step = 0, scale_pos_weight = 1, 
+11-18 22:58 INFO: ------------------initialized-----------------
+11-18 22:58 INFO: **** Grid Start *********
+11-18 22:58 INFO: CV with max_delta_step = 0, scale_pos_weight = 1, 
+11-18 22:59 INFO: ------------------initialized-----------------
+11-18 23:00 INFO: ------------------initialized-----------------
+11-18 23:00 INFO: ------------------initialized-----------------
+11-18 23:00 INFO: ------------------initialized-----------------
+11-18 23:01 INFO: **** Grid Start *********
+11-18 23:01 INFO: CV with max_delta_step = 0, scale_pos_weight = 1, 
+11-18 23:02 INFO: ------------------initialized-----------------
+11-18 23:02 INFO: **** Grid Start *********
+11-18 23:02 INFO: CV with max_delta_step = 0, scale_pos_weight = 1, 
+11-18 23:02 INFO: ------------------initialized-----------------
+11-18 23:02 INFO: **** Grid Start *********
+11-18 23:02 INFO: CV with max_delta_step = 0, scale_pos_weight = 1, 
+11-18 23:24 INFO: ------------------initialized-----------------
+11-18 23:24 INFO: **** Grid Start *********
+11-18 23:24 INFO: CV with max_delta_step = 0, scale_pos_weight = 1, 
+11-18 23:30 INFO: ------------------initialized-----------------
+11-18 23:30 INFO: **** Grid Start *********
+11-18 23:30 INFO: CV with max_delta_step = 0, scale_pos_weight = 1, 
+11-18 23:32 INFO: ------------------initialized-----------------
+11-18 23:32 INFO: **** Grid Start *********
+11-18 23:32 INFO: CV with max_delta_step = 0, scale_pos_weight = 1, 
+11-18 23:35 INFO: ------------------initialized-----------------
+11-18 23:35 INFO: **** Grid Start *********
+11-18 23:35 INFO: CV with max_delta_step = 0, scale_pos_weight = 1, 
+11-18 23:36 INFO: ------------------initialized-----------------
+11-18 23:36 INFO: **** Grid Start *********
+11-18 23:36 INFO: CV with max_delta_step = 0, scale_pos_weight = 1, 
+11-18 23:38 INFO: ------------------initialized-----------------
+11-18 23:38 INFO: **** Grid Start *********
+11-18 23:38 INFO: CV with max_delta_step = 0, scale_pos_weight = 1, 
+11-18 23:40 INFO: ------------------initialized-----------------
+11-18 23:40 INFO: **** Grid Start *********
+11-18 23:40 INFO: CV with max_delta_step = 0, scale_pos_weight = 1, 
+11-18 23:41 INFO: ------------------initialized-----------------
+11-18 23:41 INFO: **** Grid Start *********
+11-18 23:41 INFO: CV with max_delta_step = 0, scale_pos_weight = 1, 
+11-18 23:44 INFO: ------------------initialized-----------------
+11-18 23:44 INFO: **** Grid Start *********
+11-18 23:44 INFO: CV with max_delta_step = 0, scale_pos_weight = 1, 
+11-18 23:53 INFO: ------------------initialized-----------------
+11-18 23:53 INFO: **** Grid Start *********
+11-18 23:53 INFO: CV with max_delta_step = 0, scale_pos_weight = 1, 
+11-18 23:54 INFO: ------------------initialized-----------------
+11-18 23:54 INFO: **** Grid Start *********
+11-18 23:54 INFO: CV with max_delta_step = 0, scale_pos_weight = 1, 
+11-18 23:57 INFO: ------------------initialized-----------------
+11-18 23:57 INFO: **** Grid Start *********
+11-18 23:57 INFO: CV with max_delta_step = 0, scale_pos_weight = 1, 
+11-18 23:58 INFO: ------------------initialized-----------------
+11-18 23:58 INFO: **** Grid Start *********
+11-18 23:58 INFO: CV with max_delta_step = 0, scale_pos_weight = 1, 
+11-18 23:58 INFO: ------------------initialized-----------------
+11-18 23:58 INFO: **** Grid Start *********
+11-18 23:58 INFO: CV with max_delta_step = 0, scale_pos_weight = 1, 
+11-18 23:59 INFO: fold-train score : 0.999935, fold-dev score : 0.574215, dev score : 0.201662, n_trees : 18,step time : 0.1 minutes
+11-18 23:59 INFO: ****** End of grid *********
+11-18 23:59 INFO: best dev score : 0.201662, best fold-train score : 0.999935, best fold-dev score : 0.574215, best n_trees = 18, best max_delta_step = 0, best scale_pos_weight = 1, 
+11-19 00:00 INFO: **** Grid Start *********
+11-19 00:00 INFO: CV with max_delta_step = 0, scale_pos_weight = 1, 
+11-19 00:01 INFO: ------------------initialized-----------------
+11-19 00:01 INFO: **** Grid Start *********
+11-19 00:01 INFO: CV with max_delta_step = 0, scale_pos_weight = 1, 
+11-19 00:01 INFO: fold-train score : 0.999935, fold-dev score : 0.574215, dev score : 0.201662, n_trees : 18,step time : 0.1 minutes
+11-19 00:01 INFO: ****** End of grid *********
+11-19 00:01 INFO: best dev score : 0.201662, best fold-train score : 0.999935, best fold-dev score : 0.574215, best n_trees = 18, best max_delta_step = 0, best scale_pos_weight = 1, 
+11-19 00:01 INFO: **** Grid Start *********
+11-19 00:01 INFO: CV with max_delta_step = 0, scale_pos_weight = 1, 
+11-19 00:01 INFO: fold-train score : 0.999935, fold-dev score : 0.574215, dev score : 0.201662, n_trees : 18,step time : 0.1 minutes
+11-19 00:01 INFO: ****** End of grid *********
+11-19 00:01 INFO: best dev score : 0.201662, best fold-train score : 0.999935, best fold-dev score : 0.574215, best n_trees = 18, best max_delta_step = 0, best scale_pos_weight = 1, 
+11-19 00:01 INFO: **** Grid Start *********
+11-19 00:01 INFO: CV with max_delta_step = 0, scale_pos_weight = 1, 
+11-19 00:01 INFO: fold-train score : 0.999935, fold-dev score : 0.574215, dev score : 0.201662, n_trees : 18,step time : 0.1 minutes
+11-19 00:01 INFO: ****** End of grid *********
+11-19 00:01 INFO: best dev score : 0.201662, best fold-train score : 0.999935, best fold-dev score : 0.574215, best n_trees = 18, best max_delta_step = 0, best scale_pos_weight = 1, 
+11-19 00:02 INFO: ------------------initialized-----------------
+11-19 00:02 INFO: **** Grid Start *********
+11-19 00:02 INFO: CV with max_delta_step = 0, scale_pos_weight = 1, 
+11-19 00:06 INFO: fold-train score : 0.82735, fold-dev score : 0.607786, dev score : 0.226604, n_trees : 19,step time : 4.2 minutes
+11-19 00:06 INFO: ****** End of grid *********
+11-19 00:06 INFO: best dev score : 0.226604, best fold-train score : 0.82735, best fold-dev score : 0.607786, best n_trees = 19, best max_delta_step = 0, best scale_pos_weight = 1, 
+11-19 00:07 INFO: **** Grid Start *********
+11-19 00:07 INFO: CV with max_delta_step = 0, scale_pos_weight = 1, 
+11-19 00:11 INFO: fold-train score : 0.82735, fold-dev score : 0.607786, dev score : 0.226604, n_trees : 19,step time : 4.2 minutes
+11-19 00:11 INFO: ****** End of grid *********
+11-19 00:11 INFO: best dev score : 0.226604, best fold-train score : 0.82735, best fold-dev score : 0.607786, best n_trees = 19, best max_delta_step = 0, best scale_pos_weight = 1, 
+11-19 00:31 INFO: ------------------initialized-----------------
+11-19 00:31 INFO: **** Starting grid-call search *********
+11-19 00:31 INFO: CV with max_delta_step = 0, scale_pos_weight = 1, 
+11-19 00:35 INFO: fold-train score : 0.82735, fold-dev score : 0.607786, dev score : 0.226604, n_trees : 19,step time : 4.7 minutes
+11-19 00:35 INFO: ****** End of grid-call search *********
+11-19 00:35 INFO: best dev score : 0.226604, best fold-train score : 0.82735, best fold-dev score : 0.607786, best n_trees = 19, 
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+best max_delta_step = 0, best scale_pos_weight = 1, 
+11-19 00:37 INFO: **** Starting grid-call search *********
+11-19 00:37 INFO: CV with max_delta_step = 0, scale_pos_weight = 1, 
+11-19 16:25 INFO: ------------------initialized-----------------
+11-19 16:25 INFO: **** Starting grid-call search *********
+11-19 16:25 INFO: CV with max_delta_step = 0, scale_pos_weight = 1, 
+11-19 16:30 INFO: fold-train score : 0.82735, fold-dev score : 0.607786, dev score : 0.226604, n_trees : 19,step time : 4.8 minutes
+11-19 16:30 INFO: ****** End of grid-call search *********
+11-19 16:30 INFO: best dev score : 0.226604, best fold-train score : 0.82735, best fold-dev score : 0.607786, best n_trees = 19, best max_delta_step = 0, best scale_pos_weight = 1, 
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+
+11-20 18:15 INFO: ****************************************
+11-20 18:15 INFO: *** log file initialized ********
+11-20 18:15 INFO: * preparing data
+11-20 18:16 INFO: ****************************************
+11-20 18:16 INFO: *** log file initialized ********
+11-20 18:16 INFO: * preparing data
+11-20 18:18 INFO: ****************************************
+11-20 18:18 INFO: *** log file initialized ********
+11-20 18:18 INFO: * preparing data
+11-20 18:19 INFO: ****************************************
+11-20 18:19 INFO: *** log file initialized ********
+11-20 18:19 INFO: * preparing data
+11-20 18:20 INFO: ****************************************
+11-20 18:20 INFO: *** log file initialized ********
+11-20 18:20 INFO: * preparing data
+11-20 18:20 INFO: data is ready to use.
+11-20 18:20 INFO: ------------------initialized-----------------
+11-20 18:20 INFO: class is ready.
+11-20 18:22 INFO: ****************************************
+11-20 18:22 INFO: *** log file initialized ********
+11-20 18:22 INFO: * preparing data
+11-20 18:22 INFO: data is ready to use.
+11-20 18:22 INFO: ------------------initialized-----------------
+11-20 18:22 INFO: class is ready.
+11-20 18:23 INFO: ****************************************
+11-20 18:23 INFO: *** log file initialized ********
+11-20 18:23 INFO: * preparing data
+11-20 18:23 INFO: data is ready to use.
+11-20 18:23 INFO: ------------------initialized-----------------
+11-20 18:23 INFO: class is ready.
+11-20 18:23 INFO: **** Starting grid-call search *********
+11-20 18:23 INFO: CV with max_depth = 1, min_child_weight = 1, 
+11-20 18:23 INFO: fold-train score : 0.714775, fold-dev score : 0.599022, dev score : 0.20367, n_trees : 23,step time : 0.0 minutes
+11-20 18:23 INFO: CV with max_depth = 1, min_child_weight = 3, 
+11-20 18:29 INFO: ****************************************
+11-20 18:29 INFO: *** log file initialized ********
+11-20 18:29 INFO: * preparing data
+11-20 18:29 INFO: data is ready to use.
+11-20 18:29 INFO: ------------------initialized-----------------
+11-20 18:29 INFO: class is ready.
+11-20 18:29 INFO: **** Starting grid-call search *********
+11-20 18:29 INFO: CV with max_depth = 1, min_child_weight = 1, 
+11-20 18:29 INFO: fold-train score : 0.714775, fold-dev score : 0.599022, dev score : 0.20367, n_trees : 23,step time : 0.0 minutes
+11-20 18:29 INFO: CV with max_depth = 1, min_child_weight = 3, 
+11-20 18:29 INFO: fold-train score : 0.714775, fold-dev score : 0.599022, dev score : 0.20367, n_trees : 23,step time : 0.0 minutes
+11-20 18:29 INFO: CV with max_depth = 1, min_child_weight = 5, 
+11-20 18:29 INFO: fold-train score : 0.714775, fold-dev score : 0.599022, dev score : 0.204423, n_trees : 23,step time : 0.0 minutes
+11-20 18:29 INFO: CV with max_depth = 1, min_child_weight = 7, 
+11-20 18:30 INFO: fold-train score : 0.714775, fold-dev score : 0.599022, dev score : 0.204337, n_trees : 23,step time : 0.1 minutes
+11-20 18:30 INFO: CV with max_depth = 1, min_child_weight = 9, 
+11-20 18:30 INFO: fold-train score : 0.714775, fold-dev score : 0.599022, dev score : 0.211777, n_trees : 23,step time : 0.0 minutes
+11-20 18:30 INFO: CV with max_depth = 3, min_child_weight = 1, 
+11-20 18:30 INFO: fold-train score : 0.883435, fold-dev score : 0.569681, dev score : 0.0909808, n_trees : 14,step time : 0.0 minutes
+11-20 18:30 INFO: CV with max_depth = 3, min_child_weight = 3, 
+11-20 18:30 INFO: fold-train score : 0.882539, fold-dev score : 0.571456, dev score : 0.125301, n_trees : 13,step time : 0.0 minutes
+11-20 18:30 INFO: CV with max_depth = 3, min_child_weight = 5, 
+11-20 18:30 INFO: fold-train score : 0.976178, fold-dev score : 0.566, dev score : 0.101864, n_trees : 42,step time : 0.0 minutes
+11-20 18:30 INFO: CV with max_depth = 3, min_child_weight = 7, 
+11-20 18:30 INFO: fold-train score : 0.763767, fold-dev score : 0.558301, dev score : 0.109978, n_trees : 4,step time : 0.0 minutes
+11-20 18:30 INFO: CV with max_depth = 3, min_child_weight = 9, 
+11-20 18:30 INFO: fold-train score : 0.890213, fold-dev score : 0.561856, dev score : 0.135826, n_trees : 14,step time : 0.0 minutes
+11-20 18:30 INFO: CV with max_depth = 5, min_child_weight = 1, 
+11-20 18:30 INFO: fold-train score : 0.983447, fold-dev score : 0.562329, dev score : 0.0453972, n_trees : 13,step time : 0.1 minutes
+11-20 18:30 INFO: CV with max_depth = 5, min_child_weight = 3, 
+11-20 18:30 INFO: fold-train score : 0.990422, fold-dev score : 0.5596, dev score : 0.0949624, n_trees : 15,step time : 0.1 minutes
+11-20 18:30 INFO: CV with max_depth = 5, min_child_weight = 5, 
+11-20 18:30 INFO: fold-train score : 0.976496, fold-dev score : 0.56023, dev score : 0.11906, n_trees : 12,step time : 0.1 minutes
+11-20 18:30 INFO: CV with max_depth = 5, min_child_weight = 7, 
+11-20 18:30 INFO: fold-train score : 0.998415, fold-dev score : 0.570769, dev score : 0.158675, n_trees : 26,step time : 0.1 minutes
+11-20 18:30 INFO: CV with max_depth = 5, min_child_weight = 9, 
+11-20 18:30 INFO: fold-train score : 0.997251, fold-dev score : 0.569742, dev score : 0.15747, n_trees : 25,step time : 0.1 minutes
+11-20 18:30 INFO: CV with max_depth = 7, min_child_weight = 1, 
+11-20 18:30 INFO: fold-train score : 0.982058, fold-dev score : 0.560171, dev score : 0.0444789, n_trees : 5,step time : 0.1 minutes
+11-20 18:30 INFO: CV with max_depth = 7, min_child_weight = 3, 
+11-20 18:30 INFO: fold-train score : 0.985431, fold-dev score : 0.552198, dev score : 0.127511, n_trees : 5,step time : 0.1 minutes
+11-20 18:30 INFO: CV with max_depth = 7, min_child_weight = 5, 
+11-20 18:30 INFO: fold-train score : 1, fold-dev score : 0.569852, dev score : 0.133989, n_trees : 56,step time : 0.1 minutes
+11-20 18:30 INFO: CV with max_depth = 7, min_child_weight = 7, 
+11-20 18:30 INFO: fold-train score : 0.959471, fold-dev score : 0.551598, dev score : 0.115308, n_trees : 4,step time : 0.1 minutes
+11-20 18:30 INFO: CV with max_depth = 7, min_child_weight = 9, 
+11-20 18:30 INFO: fold-train score : 0.921119, fold-dev score : 0.561818, dev score : 0.0893882, n_trees : 2,step time : 0.1 minutes
+11-20 18:30 INFO: CV with max_depth = 9, min_child_weight = 1, 
+11-20 18:30 INFO: fold-train score : 0.892411, fold-dev score : 0.550868, dev score : 0.160971, n_trees : 0,step time : 0.1 minutes
+11-20 18:30 INFO: CV with max_depth = 9, min_child_weight = 3, 
+11-20 18:30 INFO: fold-train score : 0.885461, fold-dev score : 0.549573, dev score : 0.140331, n_trees : 0,step time : 0.1 minutes
+11-20 18:30 INFO: CV with max_depth = 9, min_child_weight = 5, 
+11-20 18:31 INFO: fold-train score : 0.886819, fold-dev score : 0.54611, dev score : 0.123601, n_trees : 0,step time : 0.1 minutes
+11-20 18:31 INFO: CV with max_depth = 9, min_child_weight = 7, 
+11-20 18:31 INFO: fold-train score : 1, fold-dev score : 0.554836, dev score : 0.193684, n_trees : 44,step time : 0.1 minutes
+11-20 18:31 INFO: CV with max_depth = 9, min_child_weight = 9, 
+11-20 18:31 INFO: fold-train score : 0.999375, fold-dev score : 0.553689, dev score : 0.155913, n_trees : 8,step time : 0.1 minutes
+11-20 18:31 INFO: ****** End of grid-call search *********
+11-20 18:31 INFO: best dev score : 0.211777, best fold-train score : 0.714775, best fold-dev score : 0.599022, best n_trees = 23, best max_depth = 1, best min_child_weight = 9, 
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+
+11-20 18:31 INFO: **** Starting grid-call search *********
+11-20 18:31 INFO: CV with max_depth = 0, min_child_weight = 8, 
+11-20 18:31 INFO: fold-train score : 0.5, fold-dev score : 0.5, dev score : 0, n_trees : 0,step time : 0.0 minutes
+11-20 18:31 INFO: CV with max_depth = 0, min_child_weight = 9, 
+11-20 18:31 INFO: fold-train score : 0.5, fold-dev score : 0.5, dev score : 0, n_trees : 0,step time : 0.0 minutes
+11-20 18:31 INFO: CV with max_depth = 0, min_child_weight = 10, 
+11-20 18:31 INFO: fold-train score : 0.5, fold-dev score : 0.5, dev score : 0, n_trees : 0,step time : 0.0 minutes
+11-20 18:31 INFO: CV with max_depth = 1, min_child_weight = 8, 
+11-20 18:31 INFO: fold-train score : 0.714775, fold-dev score : 0.599022, dev score : 0.211777, n_trees : 23,step time : 0.0 minutes
+11-20 18:31 INFO: CV with max_depth = 1, min_child_weight = 9, 
+11-20 18:31 INFO: fold-train score : 0.714775, fold-dev score : 0.599022, dev score : 0.211777, n_trees : 23,step time : 0.0 minutes
+11-20 18:31 INFO: CV with max_depth = 1, min_child_weight = 10, 
+11-20 18:31 INFO: fold-train score : 0.714775, fold-dev score : 0.599022, dev score : 0.214094, n_trees : 23,step time : 0.0 minutes
+11-20 18:31 INFO: CV with max_depth = 2, min_child_weight = 8, 
+11-20 18:31 INFO: fold-train score : 0.73101, fold-dev score : 0.597819, dev score : 0.199911, n_trees : 6,step time : 0.0 minutes
+11-20 18:31 INFO: CV with max_depth = 2, min_child_weight = 9, 
+11-20 18:31 INFO: fold-train score : 0.75787, fold-dev score : 0.602538, dev score : 0.188217, n_trees : 9,step time : 0.0 minutes
+11-20 18:31 INFO: CV with max_depth = 2, min_child_weight = 10, 
+11-20 18:31 INFO: fold-train score : 0.75798, fold-dev score : 0.602642, dev score : 0.169866, n_trees : 9,step time : 0.0 minutes
+11-20 18:31 INFO: ****** End of grid-call search *********
+11-20 18:31 INFO: best dev score : 0.214094, best fold-train score : 0.714775, best fold-dev score : 0.599022, best n_trees = 23, best max_depth = 1, best min_child_weight = 10, 
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+
+11-20 18:31 INFO: **** Starting grid-call search *********
+11-20 18:31 INFO: CV with max_depth = 0.4, min_child_weight = 11, 

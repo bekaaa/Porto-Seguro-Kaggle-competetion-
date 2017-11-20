@@ -1,0 +1,5 @@
+11-19 16:42 INFO: ------------------initialized-----------------
+11-19 16:42 INFO: **** Starting grid-call search *********
+11-19 16:42 INFO: CV with max_depth = 1, min_child_weight = 1, 
+11-19 16:48 INFO: fold-train score : 0.642298, fold-dev score : 0.634906, dev score : 0.136233, n_trees : 395,step time : 6.0 minutes
+11-19 16:48 INFO: CV with max_depth = 1, min_child_weight = 3, 

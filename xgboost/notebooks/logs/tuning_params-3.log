@@ -1,0 +1,172 @@
+11-12 13:08 INFO: ------------------initialized-----------------
+11-12 13:10 INFO: **** Grid Start *********
+11-12 13:10 INFO: CV with reg_alpha = 1.000000, and reg_lambda = 1.000000
+11-12 13:12 INFO: train score : 0.623, test score : 0.703, n_trees : 10, step time : 2.700000 minutes
+11-12 13:12 INFO: CV with reg_alpha = 1.000000, and reg_lambda = 0.100000
+11-12 13:15 INFO: train score : 0.623, test score : 0.710, n_trees : 10, step time : 2.366667 minutes
+11-12 13:15 INFO: CV with reg_alpha = 1.000000, and reg_lambda = 0.010000
+11-12 13:17 INFO: train score : 0.622, test score : 0.713, n_trees : 10, step time : 2.366667 minutes
+11-12 13:17 INFO: CV with reg_alpha = 1.000000, and reg_lambda = 0.001000
+11-12 13:19 INFO: train score : 0.622, test score : 0.713, n_trees : 10, step time : 2.400000 minutes
+11-12 13:19 INFO: CV with reg_alpha = 1.000000, and reg_lambda = 0.000100
+11-12 13:22 INFO: train score : 0.622, test score : 0.713, n_trees : 10, step time : 2.400000 minutes
+11-12 13:22 INFO: CV with reg_alpha = 3.000000, and reg_lambda = 1.000000
+11-12 13:24 INFO: train score : 0.627, test score : 0.674, n_trees : 10, step time : 2.316667 minutes
+11-12 13:24 INFO: CV with reg_alpha = 3.000000, and reg_lambda = 0.100000
+11-12 13:26 INFO: train score : 0.626, test score : 0.677, n_trees : 10, step time : 2.300000 minutes
+11-12 13:26 INFO: CV with reg_alpha = 3.000000, and reg_lambda = 0.010000
+11-12 13:29 INFO: train score : 0.627, test score : 0.676, n_trees : 10, step time : 2.333333 minutes
+11-12 13:29 INFO: CV with reg_alpha = 3.000000, and reg_lambda = 0.001000
+11-12 13:31 INFO: train score : 0.627, test score : 0.676, n_trees : 10, step time : 2.316667 minutes
+11-12 13:31 INFO: CV with reg_alpha = 3.000000, and reg_lambda = 0.000100
+11-12 13:33 INFO: train score : 0.627, test score : 0.676, n_trees : 10, step time : 2.316667 minutes
+11-12 13:33 INFO: CV with reg_alpha = 5.000000, and reg_lambda = 1.000000
+11-12 13:36 INFO: train score : 0.629, test score : 0.709, n_trees : 16, step time : 2.600000 minutes
+11-12 13:36 INFO: CV with reg_alpha = 5.000000, and reg_lambda = 0.100000
+11-12 13:39 INFO: train score : 0.627, test score : 0.702, n_trees : 15, step time : 2.533333 minutes
+11-12 13:39 INFO: CV with reg_alpha = 5.000000, and reg_lambda = 0.010000
+11-12 13:41 INFO: train score : 0.627, test score : 0.725, n_trees : 18, step time : 2.750000 minutes
+11-12 13:41 INFO: CV with reg_alpha = 5.000000, and reg_lambda = 0.001000
+11-12 13:44 INFO: train score : 0.627, test score : 0.725, n_trees : 18, step time : 2.733333 minutes
+11-12 13:44 INFO: CV with reg_alpha = 5.000000, and reg_lambda = 0.000100
+11-12 13:47 INFO: train score : 0.627, test score : 0.725, n_trees : 18, step time : 2.733333 minutes
+11-12 13:47 INFO: CV with reg_alpha = 7.000000, and reg_lambda = 1.000000
+11-12 13:49 INFO: train score : 0.631, test score : 0.699, n_trees : 16, step time : 2.500000 minutes
+11-12 13:49 INFO: CV with reg_alpha = 7.000000, and reg_lambda = 0.100000
+11-12 13:52 INFO: train score : 0.631, test score : 0.700, n_trees : 16, step time : 2.400000 minutes
+11-12 13:52 INFO: CV with reg_alpha = 7.000000, and reg_lambda = 0.010000
+11-12 13:54 INFO: train score : 0.632, test score : 0.712, n_trees : 18, step time : 2.516667 minutes
+11-12 13:54 INFO: CV with reg_alpha = 7.000000, and reg_lambda = 0.001000
+11-12 13:57 INFO: train score : 0.631, test score : 0.699, n_trees : 16, step time : 2.400000 minutes
+11-12 13:57 INFO: CV with reg_alpha = 7.000000, and reg_lambda = 0.000100
+11-12 13:59 INFO: train score : 0.631, test score : 0.699, n_trees : 16, step time : 2.400000 minutes
+11-12 13:59 INFO: CV with reg_alpha = 9.000000, and reg_lambda = 1.000000
+11-12 14:02 INFO: train score : 0.630, test score : 0.699, n_trees : 18, step time : 2.533333 minutes
+11-12 14:02 INFO: CV with reg_alpha = 9.000000, and reg_lambda = 0.100000
+11-12 14:04 INFO: train score : 0.631, test score : 0.706, n_trees : 19, step time : 2.550000 minutes
+11-12 14:04 INFO: CV with reg_alpha = 9.000000, and reg_lambda = 0.010000
+11-12 14:07 INFO: train score : 0.631, test score : 0.706, n_trees : 19, step time : 2.533333 minutes
+11-12 14:07 INFO: CV with reg_alpha = 9.000000, and reg_lambda = 0.001000
+11-12 14:09 INFO: train score : 0.631, test score : 0.707, n_trees : 19, step time : 2.650000 minutes
+11-12 14:09 INFO: CV with reg_alpha = 9.000000, and reg_lambda = 0.000100
+11-12 14:12 INFO: train score : 0.631, test score : 0.707, n_trees : 19, step time : 2.533333 minutes
+11-12 14:12 INFO: ****** End of grid *********
+11-12 14:12 INFO: best auc score : 0.7245, best gini score : 0.4491, best train score : 0.6274, best reg_alpha = 5.0, best reg_lambda = 0.0 and n_trees = 18
+11-12 14:12 INFO: **** Grid Start *********
+11-12 14:12 INFO: CV with reg_alpha = 4.000000, and reg_lambda = 0.000100
+11-12 14:14 INFO: train score : 0.627, test score : 0.704, n_trees : 14, step time : 2.366667 minutes
+11-12 14:14 INFO: CV with reg_alpha = 4.500000, and reg_lambda = 0.000100
+11-12 14:17 INFO: train score : 0.628, test score : 0.706, n_trees : 15, step time : 2.433333 minutes
+11-12 14:17 INFO: CV with reg_alpha = 5.000000, and reg_lambda = 0.000100
+11-12 14:19 INFO: train score : 0.627, test score : 0.725, n_trees : 18, step time : 2.566667 minutes
+11-12 14:19 INFO: CV with reg_alpha = 5.500000, and reg_lambda = 0.000100
+11-12 14:21 INFO: train score : 0.629, test score : 0.691, n_trees : 14, step time : 2.300000 minutes
+11-12 14:21 INFO: CV with reg_alpha = 6.000000, and reg_lambda = 0.000100
+11-12 14:24 INFO: train score : 0.630, test score : 0.719, n_trees : 18, step time : 2.516667 minutes
+11-12 14:24 INFO: CV with reg_alpha = 6.500000, and reg_lambda = 0.000100
+11-12 14:26 INFO: train score : 0.629, test score : 0.714, n_trees : 18, step time : 2.483333 minutes
+11-12 14:26 INFO: CV with reg_alpha = 7.000000, and reg_lambda = 0.000100
+11-12 14:29 INFO: train score : 0.631, test score : 0.699, n_trees : 16, step time : 2.383333 minutes
+11-12 14:29 INFO: CV with reg_alpha = 7.500000, and reg_lambda = 0.000100
+11-12 14:31 INFO: train score : 0.630, test score : 0.703, n_trees : 17, step time : 2.466667 minutes
+11-12 14:31 INFO: CV with reg_alpha = 8.000000, and reg_lambda = 0.000100
+11-12 14:34 INFO: train score : 0.630, test score : 0.699, n_trees : 17, step time : 2.483333 minutes
+11-12 14:34 INFO: CV with reg_alpha = 8.500000, and reg_lambda = 0.000100
+11-12 14:37 INFO: train score : 0.631, test score : 0.703, n_trees : 18, step time : 2.750000 minutes
+11-12 14:37 INFO: CV with reg_alpha = 9.000000, and reg_lambda = 0.000100
+11-12 14:40 INFO: **** Grid Start *********
+11-12 14:40 INFO: CV with gamma = 1.000000
+11-12 14:43 INFO: ------------------initialized-----------------
+11-12 14:43 INFO: **** Grid Start *********
+11-12 14:43 INFO: CV with gamma = 1.000000
+11-12 14:46 INFO: train score : 0.629, test score : 0.717, n_trees : 18, step time : 2.6 minutes
+11-12 14:46 INFO: CV with gamma = 3.000000
+11-12 14:49 INFO: train score : 0.631, test score : 0.691, n_trees : 17, step time : 2.5 minutes
+11-12 14:49 INFO: CV with gamma = 5.000000
+11-12 14:51 INFO: train score : 0.633, test score : 0.684, n_trees : 22, step time : 2.7 minutes
+11-12 14:51 INFO: CV with gamma = 7.000000
+11-12 14:54 INFO: train score : 0.635, test score : 0.668, n_trees : 23, step time : 2.8 minutes
+11-12 14:54 INFO: CV with gamma = 9.000000
+11-12 14:58 INFO: train score : 0.637, test score : 0.668, n_trees : 41, step time : 3.7 minutes
+11-12 14:58 INFO: ****** End of grid *********
+11-12 14:58 INFO: best auc score : 0.7172, best gini score : 0.4344, best train score : 0.6287, best gamma = 1.000000, and n_trees = 18
+11-12 14:58 INFO: **** Grid Start *********
+11-12 14:58 INFO: CV with gamma = 0.000000
+11-12 15:00 INFO: train score : 0.627, test score : 0.725, n_trees : 18, step time : 2.5 minutes
+11-12 15:00 INFO: CV with gamma = 0.500000
+11-12 15:03 INFO: train score : 0.627, test score : 0.692, n_trees : 14, step time : 2.3 minutes
+11-12 15:03 INFO: CV with gamma = 1.000000
+11-12 15:05 INFO: train score : 0.629, test score : 0.717, n_trees : 18, step time : 2.5 minutes
+11-12 15:05 INFO: CV with gamma = 1.500000
+11-12 15:07 INFO: train score : 0.629, test score : 0.686, n_trees : 14, step time : 2.3 minutes
+11-12 15:07 INFO: CV with gamma = 2.000000
+11-12 15:10 INFO: train score : 0.629, test score : 0.681, n_trees : 14, step time : 2.3 minutes
+11-12 15:10 INFO: ****** End of grid *********
+11-12 15:10 INFO: best auc score : 0.7245, best gini score : 0.4491, best train score : 0.6274, best gamma = 0.000000, and n_trees = 18
+11-12 15:10 INFO: **** Grid Start *********
+11-12 15:10 INFO: CV with eta = 0.100000
+11-12 15:14 INFO: train score : 0.634, test score : 0.732, n_trees : 52, step time : 4.1 minutes
+11-12 15:14 INFO: CV with eta = 0.200000
+11-12 15:17 INFO: train score : 0.631, test score : 0.710, n_trees : 23, step time : 2.8 minutes
+11-12 15:17 INFO: CV with eta = 0.300000
+11-12 15:19 INFO: train score : 0.627, test score : 0.725, n_trees : 18, step time : 2.6 minutes
+11-12 15:19 INFO: ****** End of grid *********
+11-12 15:19 INFO: best auc score : 0.7322, best gini score : 0.4645, best train score : 0.6342, best eta = 0.100000, and n_trees = 52
+11-12 16:42 INFO: ------------------initialized-----------------
+11-12 16:42 INFO: **** Grid Start *********
+11-12 16:42 INFO: CV with max_delta_step = 0.000000, and scale_pos_weight = 26.000000
+11-12 16:45 INFO: train score : 0.609, test score : 0.824, n_trees : 18, step time : 3.2 minutes
+11-12 16:45 INFO: CV with max_delta_step = 0.000000, and scale_pos_weight = 1.000000
+11-12 16:50 INFO: train score : 0.634, test score : 0.732, n_trees : 52, step time : 4.5 minutes
+11-12 16:50 INFO: CV with max_delta_step = 0.000000, and scale_pos_weight = 1.500000
+11-12 16:54 INFO: train score : 0.633, test score : 0.771, n_trees : 52, step time : 4.8 minutes
+11-12 16:54 INFO: CV with max_delta_step = 0.000000, and scale_pos_weight = 2.000000
+11-12 16:59 INFO: train score : 0.633, test score : 0.759, n_trees : 40, step time : 4.4 minutes
+11-12 16:59 INFO: CV with max_delta_step = 0.000000, and scale_pos_weight = 5.000000
+11-12 17:03 INFO: train score : 0.628, test score : 0.845, n_trees : 41, step time : 4.2 minutes
+11-12 17:03 INFO: CV with max_delta_step = 0.000000, and scale_pos_weight = 10.000000
+11-12 17:06 INFO: train score : 0.625, test score : 0.824, n_trees : 23, step time : 3.1 minutes
+11-12 17:06 INFO: ****** End of grid *********
+11-12 17:06 INFO: best auc score : 0.8451, best gini score : 0.6902, best train score : 0.6280, best max_delta_step = 0.000000, best scale_pos_weight = 5.000000 and n_trees = 41
+11-12 17:09 INFO: **** Grid Start *********
+11-12 17:09 INFO: CV with max_delta_step = 0.000000, and scale_pos_weight = 4.000000
+11-12 17:13 INFO: train score : 0.630, test score : 0.773, n_trees : 26, step time : 3.3 minutes
+11-12 17:13 INFO: CV with max_delta_step = 0.000000, and scale_pos_weight = 5.000000
+11-12 17:17 INFO: train score : 0.628, test score : 0.845, n_trees : 41, step time : 4.1 minutes
+11-12 17:17 INFO: CV with max_delta_step = 0.000000, and scale_pos_weight = 6.000000
+11-12 17:21 INFO: train score : 0.627, test score : 0.834, n_trees : 34, step time : 3.8 minutes
+11-12 17:21 INFO: CV with max_delta_step = 0.000000, and scale_pos_weight = 7.000000
+11-12 17:24 INFO: train score : 0.627, test score : 0.805, n_trees : 23, step time : 3.4 minutes
+11-12 17:24 INFO: CV with max_delta_step = 0.000000, and scale_pos_weight = 8.000000
+11-12 17:27 INFO: train score : 0.625, test score : 0.820, n_trees : 25, step time : 3.4 minutes
+11-12 17:27 INFO: ****** End of grid *********
+11-12 17:27 INFO: best auc score : 0.8451, best gini score : 0.6902, best train score : 0.6280, best max_delta_step = 0.000000, best scale_pos_weight = 5.000000 and n_trees = 41
+11-12 17:29 INFO: **** Grid Start *********
+11-12 17:29 INFO: CV with max_delta_step = 0.000000, and scale_pos_weight = 4.900000
+11-12 17:33 INFO: train score : 0.629, test score : 0.833, n_trees : 38, step time : 3.8 minutes
+11-12 17:33 INFO: CV with max_delta_step = 0.000000, and scale_pos_weight = 5.100000
+11-12 17:36 INFO: train score : 0.628, test score : 0.799, n_trees : 27, step time : 3.2 minutes
+11-12 17:36 INFO: CV with max_delta_step = 0.000000, and scale_pos_weight = 5.300000
+11-12 17:40 INFO: train score : 0.629, test score : 0.845, n_trees : 40, step time : 3.9 minutes
+11-12 17:40 INFO: CV with max_delta_step = 0.000000, and scale_pos_weight = 5.500000
+11-12 17:43 INFO: train score : 0.628, test score : 0.829, n_trees : 34, step time : 3.5 minutes
+11-12 17:43 INFO: CV with max_delta_step = 0.000000, and scale_pos_weight = 5.700000
+11-12 17:46 INFO: train score : 0.628, test score : 0.788, n_trees : 22, step time : 2.9 minutes
+11-12 17:46 INFO: CV with max_delta_step = 0.000000, and scale_pos_weight = 5.900000
+11-12 17:51 INFO: train score : 0.628, test score : 0.843, n_trees : 38, step time : 4.4 minutes
+11-12 17:51 INFO: ****** End of grid *********
+11-12 17:51 INFO: best auc score : 0.8451, best gini score : 0.6902, best train score : 0.6290, best max_delta_step = 0.000000, best scale_pos_weight = 5.300000 and n_trees = 40
+11-12 18:46 INFO: ------------------initialized-----------------
+11-12 18:46 INFO: **** Grid Start *********
+11-12 18:46 INFO: CV with max_delta_step = 0.000000, and scale_pos_weight = 1.000000
+11-12 18:51 INFO: train score : 0.609, test score : 0.823, n_trees : 18, step time : 4.7 minutes
+11-12 18:51 INFO: ****** End of grid *********
+11-12 18:51 INFO: best auc score : 0.8234, best gini score : 0.6468, best train score : 0.6094, best max_delta_step = 0.000000, best scale_pos_weight = 1.000000 and n_trees = 18
+11-12 21:40 INFO: ------------------initialized-----------------
+11-12 21:40 INFO: **** Grid Start *********
+11-12 21:40 INFO: CV with max_delta_step = 0.000000, and scale_pos_weight = 1.000000
+11-12 21:41 INFO: **** Grid Start *********
+11-12 21:41 INFO: CV with max_delta_step = 0.000000, and scale_pos_weight = 1.000000
+11-12 21:51 INFO: train score : 0.612, test score : 0.811, n_trees : 20, step time : 9.3 minutes
+11-12 21:51 INFO: ****** End of grid *********
+11-12 21:51 INFO: best auc score : 0.8114, best gini score : 0.6228, best train score : 0.6121, best max_delta_step = 0.000000, best scale_pos_weight = 1.000000 and n_trees = 20

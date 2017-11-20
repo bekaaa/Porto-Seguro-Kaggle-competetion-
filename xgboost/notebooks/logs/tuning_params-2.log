@@ -1,0 +1,17 @@
+11-12 11:21 INFO: ------------------initialized-----------------
+11-12 11:21 INFO: **** Grid Start *********
+11-12 11:21 INFO: **** Grid Start *********
+11-12 11:21 INFO: CV with max_depth = 10.000000
+11-12 11:21 INFO: **** Grid Start *********
+11-12 11:21 INFO: CV with max_depth = 10.000000
+11-12 11:22 INFO: **** Grid Start *********
+11-12 11:22 INFO: CV with max_depth = 10.000000
+11-12 11:29 INFO: train score : 0.619, test score : 0.768, n_trees : 12, step time : 6.833333 minutes
+11-12 11:29 INFO: CV with max_depth = 12.000000
+11-12 11:36 INFO: train score : 0.616, test score : 0.666, n_trees : 2, step time : 6.233333 minutes
+11-12 11:36 INFO: CV with max_depth = 14.000000
+11-12 11:43 INFO: train score : 0.615, test score : 0.642, n_trees : 1, step time : 7.100000 minutes
+11-12 11:43 INFO: CV with max_depth = 16.000000
+11-12 11:51 INFO: train score : 0.615, test score : 0.642, n_trees : 1, step time : 8.616667 minutes
+11-12 11:51 INFO: ****** End of grid *********
+11-12 12:36 INFO: ------------------initialized-----------------

@@ -1,0 +1,123 @@
+11-13 11:41 INFO: ------------------initialized-----------------
+11-13 11:42 INFO: **** Grid Start *********
+11-13 11:42 INFO: CV with max_depth = 1.000000, and min_child_weight = 1.000000
+11-13 11:43 INFO: train score : 0.624, test score : 0.627, n_trees : 79, step time : 1.8 minutes
+11-13 11:43 INFO: CV with max_depth = 1.000000, and min_child_weight = 3.000000
+11-13 11:45 INFO: train score : 0.624, test score : 0.627, n_trees : 79, step time : 1.7 minutes
+11-13 11:45 INFO: CV with max_depth = 1.000000, and min_child_weight = 5.000000
+11-13 11:47 INFO: train score : 0.624, test score : 0.627, n_trees : 79, step time : 1.7 minutes
+11-13 11:47 INFO: CV with max_depth = 1.000000, and min_child_weight = 7.000000
+11-13 11:49 INFO: train score : 0.624, test score : 0.627, n_trees : 79, step time : 1.7 minutes
+11-13 11:49 INFO: CV with max_depth = 1.000000, and min_child_weight = 9.000000
+11-13 11:50 INFO: train score : 0.624, test score : 0.627, n_trees : 79, step time : 1.6 minutes
+11-13 11:50 INFO: CV with max_depth = 3.000000, and min_child_weight = 1.000000
+11-13 11:53 INFO: train score : 0.636, test score : 0.647, n_trees : 79, step time : 3.1 minutes
+11-13 11:53 INFO: CV with max_depth = 3.000000, and min_child_weight = 3.000000
+11-13 11:56 INFO: train score : 0.636, test score : 0.647, n_trees : 79, step time : 3.1 minutes
+11-13 11:56 INFO: CV with max_depth = 3.000000, and min_child_weight = 5.000000
+11-13 12:00 INFO: train score : 0.636, test score : 0.647, n_trees : 79, step time : 3.1 minutes
+11-13 12:00 INFO: CV with max_depth = 3.000000, and min_child_weight = 7.000000
+11-13 12:03 INFO: train score : 0.636, test score : 0.647, n_trees : 79, step time : 3.1 minutes
+11-13 12:03 INFO: CV with max_depth = 3.000000, and min_child_weight = 9.000000
+11-13 12:06 INFO: train score : 0.636, test score : 0.647, n_trees : 79, step time : 3.1 minutes
+11-13 12:06 INFO: CV with max_depth = 5.000000, and min_child_weight = 1.000000
+11-13 12:10 INFO: train score : 0.638, test score : 0.680, n_trees : 79, step time : 4.5 minutes
+11-13 12:10 INFO: CV with max_depth = 5.000000, and min_child_weight = 3.000000
+11-13 12:15 INFO: train score : 0.638, test score : 0.680, n_trees : 71, step time : 4.4 minutes
+11-13 12:15 INFO: CV with max_depth = 5.000000, and min_child_weight = 5.000000
+11-13 12:19 INFO: train score : 0.639, test score : 0.680, n_trees : 79, step time : 4.5 minutes
+11-13 12:19 INFO: CV with max_depth = 5.000000, and min_child_weight = 7.000000
+11-13 12:24 INFO: train score : 0.639, test score : 0.680, n_trees : 78, step time : 4.5 minutes
+11-13 12:24 INFO: CV with max_depth = 5.000000, and min_child_weight = 9.000000
+11-13 12:28 INFO: train score : 0.638, test score : 0.680, n_trees : 78, step time : 4.4 minutes
+11-13 12:28 INFO: CV with max_depth = 7.000000, and min_child_weight = 1.000000
+11-13 12:33 INFO: train score : 0.633, test score : 0.703, n_trees : 33, step time : 4.8 minutes
+11-13 12:33 INFO: CV with max_depth = 7.000000, and min_child_weight = 3.000000
+11-13 12:38 INFO: train score : 0.633, test score : 0.715, n_trees : 43, step time : 5.5 minutes
+11-13 12:38 INFO: CV with max_depth = 7.000000, and min_child_weight = 5.000000
+11-13 12:44 INFO: train score : 0.633, test score : 0.716, n_trees : 44, step time : 5.7 minutes
+11-13 12:44 INFO: CV with max_depth = 7.000000, and min_child_weight = 7.000000
+11-13 12:49 INFO: train score : 0.633, test score : 0.715, n_trees : 43, step time : 5.5 minutes
+11-13 12:49 INFO: CV with max_depth = 7.000000, and min_child_weight = 9.000000
+11-13 12:54 INFO: train score : 0.634, test score : 0.702, n_trees : 32, step time : 4.8 minutes
+11-13 12:54 INFO: CV with max_depth = 9.000000, and min_child_weight = 1.000000
+11-13 13:00 INFO: train score : 0.621, test score : 0.773, n_trees : 24, step time : 5.3 minutes
+11-13 13:00 INFO: CV with max_depth = 9.000000, and min_child_weight = 3.000000
+11-13 13:05 INFO: train score : 0.621, test score : 0.767, n_trees : 22, step time : 5.2 minutes
+11-13 13:05 INFO: CV with max_depth = 9.000000, and min_child_weight = 5.000000
+11-13 13:10 INFO: train score : 0.621, test score : 0.766, n_trees : 22, step time : 5.2 minutes
+11-13 13:10 INFO: CV with max_depth = 9.000000, and min_child_weight = 7.000000
+11-13 13:15 INFO: train score : 0.622, test score : 0.766, n_trees : 22, step time : 5.2 minutes
+11-13 13:15 INFO: CV with max_depth = 9.000000, and min_child_weight = 9.000000
+11-13 13:20 INFO: train score : 0.622, test score : 0.770, n_trees : 24, step time : 5.3 minutes
+11-13 13:20 INFO: ****** End of grid *********
+11-13 13:20 INFO: best auc score : 0.7726, best gini score : 0.5452, best train score : 0.6214, best max_depth = 9.000000, best min_child_weight = 1.000000 and n_trees = 24
+11-13 13:20 INFO: **** Grid Start *********
+11-13 13:20 INFO: CV with max_depth = 8.000000, and min_child_weight = 0.000000
+11-13 13:26 INFO: train score : 0.629, test score : 0.738, n_trees : 30, step time : 5.3 minutes
+11-13 13:26 INFO: CV with max_depth = 8.000000, and min_child_weight = 1.000000
+11-13 13:31 INFO: train score : 0.628, test score : 0.726, n_trees : 24, step time : 5.0 minutes
+11-13 13:31 INFO: CV with max_depth = 8.000000, and min_child_weight = 2.000000
+11-13 13:36 INFO: train score : 0.629, test score : 0.736, n_trees : 29, step time : 5.5 minutes
+11-13 13:36 INFO: CV with max_depth = 9.000000, and min_child_weight = 0.000000
+11-13 13:42 INFO: train score : 0.622, test score : 0.773, n_trees : 24, step time : 5.7 minutes
+11-13 13:42 INFO: CV with max_depth = 9.000000, and min_child_weight = 1.000000
+11-13 13:48 INFO: train score : 0.621, test score : 0.773, n_trees : 24, step time : 6.0 minutes
+11-13 13:48 INFO: CV with max_depth = 9.000000, and min_child_weight = 2.000000
+11-13 13:53 INFO: train score : 0.622, test score : 0.764, n_trees : 21, step time : 5.4 minutes
+11-13 13:53 INFO: CV with max_depth = 10.000000, and min_child_weight = 0.000000
+11-13 13:59 INFO: train score : 0.614, test score : 0.815, n_trees : 20, step time : 5.7 minutes
+11-13 13:59 INFO: CV with max_depth = 10.000000, and min_child_weight = 1.000000
+11-13 14:05 INFO: train score : 0.614, test score : 0.814, n_trees : 20, step time : 5.7 minutes
+11-13 14:05 INFO: CV with max_depth = 10.000000, and min_child_weight = 2.000000
+11-13 14:11 INFO: train score : 0.614, test score : 0.832, n_trees : 26, step time : 6.4 minutes
+11-13 14:11 INFO: ****** End of grid *********
+11-13 14:11 INFO: best auc score : 0.8324, best gini score : 0.6649, best train score : 0.6141, best max_depth = 10.000000, best min_child_weight = 2.000000 and n_trees = 26
+11-13 14:11 INFO: **** Grid Start *********
+11-13 14:11 INFO: CV with max_depth = 10.000000, and min_child_weight = 2.000000
+11-13 14:18 INFO: train score : 0.614, test score : 0.832, n_trees : 26, step time : 7.1 minutes
+11-13 14:18 INFO: CV with max_depth = 12.000000, and min_child_weight = 2.000000
+11-13 14:25 INFO: train score : 0.593, test score : 0.900, n_trees : 16, step time : 7.1 minutes
+11-13 14:25 INFO: CV with max_depth = 14.000000, and min_child_weight = 2.000000
+11-13 14:34 INFO: train score : 0.577, test score : 0.974, n_trees : 18, step time : 8.6 minutes
+11-13 14:34 INFO: CV with max_depth = 16.000000, and min_child_weight = 2.000000
+11-13 14:43 INFO: train score : 0.571, test score : 0.989, n_trees : 12, step time : 9.1 minutes
+11-13 14:43 INFO: ****** End of grid *********
+11-13 14:43 INFO: best auc score : 0.9891, best gini score : 0.9782, best train score : 0.5708, best max_depth = 16.000000, best min_child_weight = 2.000000 and n_trees = 12
+11-13 14:43 INFO: **** Grid Start *********
+11-13 14:43 INFO: CV with max_depth = 15.000000, and min_child_weight = 2.000000
+11-13 14:51 INFO: train score : 0.573, test score : 0.977, n_trees : 12, step time : 7.8 minutes
+11-13 14:51 INFO: CV with max_depth = 16.000000, and min_child_weight = 2.000000
+11-13 14:59 INFO: train score : 0.571, test score : 0.989, n_trees : 12, step time : 8.2 minutes
+11-13 14:59 INFO: CV with max_depth = 17.000000, and min_child_weight = 2.000000
+11-13 15:08 INFO: train score : 0.572, test score : 0.997, n_trees : 14, step time : 9.3 minutes
+11-13 15:08 INFO: ****** End of grid *********
+11-13 15:08 INFO: best auc score : 0.9970, best gini score : 0.9940, best train score : 0.5719, best max_depth = 17.000000, best min_child_weight = 2.000000 and n_trees = 14
+11-13 15:08 INFO: **** Grid Start *********
+11-13 15:08 INFO: CV with gamma = 1.000000
+11-13 15:18 INFO: train score : 0.571, test score : 0.997, n_trees : 14, step time : 9.2 minutes
+11-13 15:18 INFO: CV with gamma = 3.000000
+11-13 15:19 ERROR: Internal Python error in the inspect module.
+Below is the traceback from this internal error.
+
+11-13 15:19 INFO: 
+Unfortunately, your original traceback can not be constructed.
+
+11-13 15:22 INFO: ------------------initialized-----------------
+11-13 15:24 INFO: **** Grid Start *********
+11-13 15:24 INFO: CV with eta = 0.100000
+11-13 15:29 INFO: train score : 0.572, test score : 0.999, n_trees : 14, step time : 5.4 minutes
+11-13 15:29 INFO: ****** End of grid *********
+11-13 15:29 INFO: best auc score : 0.9989, best gini score : 0.9978, best train score : 0.5719, best eta = 0.100000, and n_trees = 14
+11-13 15:35 INFO: ------------------initialized-----------------
+11-13 15:38 INFO: **** Grid Start *********
+11-13 15:38 INFO: CV with eta = 0.100000
+11-13 15:42 INFO: train score : 0.572, test score : 0.999, n_trees : 19, step time : 4.2 minutes
+11-13 15:42 INFO: ****** End of grid *********
+11-13 15:42 INFO: best auc score : 0.9992, best gini score : 0.9984, best train score : 0.5719, best eta = 0.100000, and n_trees = 19
+11-13 16:48 INFO: **** Grid Start *********
+11-13 16:48 INFO: CV with eta = 0.100000
+11-13 16:54 INFO: train score : 0.614, test score : 0.869, n_trees : 17, step time : 5.6 minutes
+11-13 16:54 INFO: ****** End of grid *********
+11-13 16:54 INFO: best auc score : 0.8693, best gini score : 0.7385, best train score : 0.6142, best eta = 0.100000, and n_trees = 17
+11-14 14:38 INFO: ------------------initialized-----------------
