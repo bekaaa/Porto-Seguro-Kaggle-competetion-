@@ -1,8 +1,8 @@
 #!/usr/bin/env python
 import numpy as np
-import xgboost as xgb
+#import xgboost as xgb
 from xgb_tuner import xgb_tuner
-from sklearn.model_selection import train_test_split
+#from sklearn.model_selection import train_test_split
 import log
 '''
 Using the xgb_tuner Class. I will tune the important parameters in xgboost.
@@ -51,16 +51,9 @@ class parametizer :
 			raise ValueError('Wrong train/test file input')
 		#self.labels = self.train[:,0]
 		#self.train = self.train[:,1:]
-		if preproc : self.train, self.labels, self.test = preproc(self.train, self.test)
+		if preproc : self.dtrain, self.dvalid, self.dtest = preproc(self.train, self.test)
 
-		self.x_train, self.x_dev, self.y_train, self.y_dev = \
-			train_test_split(self.train,self.labels,random_state=self.seed,test_size=dev_size)
 
-		self.dtrain = xgb.DMatrix(self.x_train, label=self.y_train)
-		self.dvalid = xgb.DMatrix(self.x_dev, label=self.y_dev)
-		self.dtest  = xgb.DMatrix(self.test) if self.test else None
-
-		del self.train, self.labels, self.x_train, self.x_dev, self.y_train, self.y_dev, self.test
 		log.msg('data is ready to use.')
 		# ------------ data is ready ----------------- #
 		# -------------------------------------------- #
@@ -79,7 +72,7 @@ class parametizer :
 			'reg_alpha' : 0,
 			'reg_lambda' : 1,
 
-			'eta' : 0.3,
+			'eta' : 0.01,
 
 			'objective' : "binary:logistic",
 			'eval_metric' : 'auc',
@@ -101,11 +94,48 @@ class parametizer :
 		'''
 		tune all parameters.
 		'''
-		self.tune_data_imbalancing()
-		self.tune_model_complexity()
-		self.tune_model_robustness()
-		self.tune_regulr_terms()
-		self.tune_eta_rounds()
+		#terms, bst = self.tune_data_imbalancing()
+		terms, bst = self.tune_model_complexity()
+		for t,b in zip(terms, bst) :
+			print "*-* best %s = %g " % (t,b)
+			log.msg("*-* best %s = %g " % (t,b) )
+			self.params[t] = b
+		print '\n'
+		#------------------------
+		terms, bst = self.tune_gamma()
+		for t,b in zip(terms, bst) :
+			print "*-* best %s = %g " % (t,b)
+			log.msg("*-* best %s = %g " % (t,b) )
+			self.params[t] = b
+		print '\n'
+		#---------------
+		terms, bst = self.tune_model_robustness()
+		for t,b in zip(terms, bst) :
+			print "*-* best %s = %g " % (t,b)
+			log.msg("*-* best %s = %g " % (t,b) )
+			self.params[t] = b
+		print '\n'
+		#--------------------
+		terms, bst = self.tune_regulr_terms('l2')
+		for t,b in zip(terms, bst) :
+			print "*-* best %s = %g " % (t,b)
+			log.msg("*-* best %s = %g " % (t,b) )
+			self.params[t] = b
+		print '\n'
+		#----------------------
+		terms, bst = self.tune_regulr_terms('l1')
+		for t,b in zip(terms, bst) :
+			print "*-* best %s = %g " % (t,b)
+			log.msg("*-* best %s = %g " % (t,b) )
+			self.params[t] = b
+		print '\n'
+		#---------------------
+		terms, bst = self.tune_eta()
+		for t,b in zip(terms, bst) :
+			print "*-* best %s = %g " % (t,b)
+			log.msg("*-* best %s = %g " % (t,b) )
+			self.params[t] = b
+		print '\n'
 	##################################################################
 	def init_log(self, index) :
 		if index == 0 : index = "test"
@@ -115,29 +145,10 @@ class parametizer :
 		except :
 			pass
 		log.init('tuning_params-' + str(index) + '.log')
-	########################################################################
-	#######################################################################
-	def tune_gamma(self, levels=3, init_step=1, start=0) :
-		terms = ['gamma']
-		#----------------------------------
-		# example : 1 2 ..... 9
-		step = init_step
-		end = start + step * 10
-		grids = np.arange(start, end, step)
-		best_grid = self.tuner(terms, grids)
-		#--------------------------------------
-		# example : 5.5 6 6.5
-		step = init_step / 2.
-		start = best_grid[0] - step
-		end = start + step * 2
-		grids = np.arange(start, end, step)
-		best_grid = self.tuner(terms, grids)
-		#-----------------------------------------
-
-	##############################################################################
-	def tune_model_complexity(self,drop=''):
+	##############################################################
+	def tune_model_complexity(self):
 		'''
-		This function can search for the suitable value for two parameters, in range [0-20]
+		This function can search for the suitable int value for two parameters, in range [0-20]
 		'''
 		terms = ['max_depth', 'min_child_weight']
 		#---------------------------------------------5
@@ -150,91 +161,161 @@ class parametizer :
 		pa2 = [ bst[1] - 1, bst[1], bst[1] + 1 ]
 		grids = [ (p1, p2) for p1 in pa1 for p2 in pa2 ]
 		bst = self.tuner(terms, grids)
-		#--------------------------------------------------[5-7]
+		#--------------------------------------------------[Return]
 		if bst[0] < 10 and bst[1] < 10 :
-			if bst[0] == pa1[0] : #5
-				pa1 = np.arange(bst[0], bst[0]+1, 2)
-			elif bst[0] == pa1[1] : #7
-				pa1 = np.arange(bst[0]-.6, bst[0]+.8, .2)
-			else : #5
-				pa1 = np.arange(bst[0]-.8, bst[0]+.1, .2)
-
-			if bst[1] == pa2[0] : #5
-				pa2 = np.arange(bst[1], bst[1]+1, 2)
-			elif bst[1] == pa2[1] : #7
-				pa2 = np.arange(bst[1]-.6, bst[1]+.8, .2)
-			else : #5
-				pa2 = np.arange(bst[1]-.8, bst[1]+.1, .2)
-
-			grids = [ (p1, p2) for p1 in pa1 for p2 in pa2 ]
-			bst = self.tuner(terms, grids)
-			#-------------------------------------------------3
-			pa1 = [ bst[0]-.1, bst[0], bst[0]+.1 ]
-			pa2 = [ bst[1]-.1, bst[1], bst[1]+.1 ]
-			grids = [ (p1, p2) for p1 in pa1 for p2 in pa2 ]
-			bst = self.tuner(terms, grids)
-			#--------------------------------------------
-			return bst
-		#-------------------------------------------------------5/[5-7]
+			return terms, bst
+		#-------------------------------------------------------5/[1]
 		# in case of either of them is 10.
 		if bst[0] == 10 :
 			pa1 = np.arange(11,20,2) # 5
 		else :
-			if bst[0] == pa1[0] : #5
-				pa1 = np.arange(bst[0], bst[0]+1, 2)
-			elif bst[0] == pa1[1] : #7
-				pa1 = np.arange(bst[0]-.6, bst[0]+.8, .2)
-			else : #5
-				pa1 = np.arange(bst[0]-.8, bst[0]+.1, .2)
+			pa1 = [bst[0]]
 
 		if bst[1] == 10 : # 5
 			pa2 = np.arange(11,20,2)
 		else :
-			if bst[1] == pa2[0] : #5
-				pa2 = np.arange(bst[1], bst[1]+1, 2)
-			elif bst[1] == pa2[1] : #7
-				pa2 = np.arange(bst[1]-.6, bst[1]+.8, .2)
-			else : #5
-				pa2 = np.arange(bst[1]-.8, bst[1]+.1, .2)
-
-		grids = [ (p1, p2) for p1 in pa1 for p2 in pa2 ]
-		bst = self.tuner(terms, grids)
-		#----------------------------------------------[5-7]/3
-		if bst[0] >= 10 :
-			if bst[0] == pa1[0] : #5
-				pa1 = np.arange(bst[0], bst[0]+1, 2)
-			elif bst[0] == pa1[1] : #7
-				pa1 = np.arange(bst[0]-.6, bst[0]+.8, .2)
-			else : #5
-				pa1 = np.arange(bst[0]-.8, bst[0]+.1, .2)
-		else :#3
-			pa1 = [ bst[0]-.1, bst[0], bst[0]+.1 ]
-
-		if bst[1] >= 10 :
-			if bst[1] == pa2[0] : #5
-				pa2 = np.arange(bst[1], bst[1]+1, 2)
-			elif bst[1] == pa2[1] : #7
-				pa2 = np.arange(bst[1]-.6, bst[1]+.8, .2)
-			else : #5
-				pa2 = np.arange(bst[1]-.8, bst[1]+.1, .2)
-		else :#3
-			pa2 = [ bst[1]-.1, bst[1], bst[1]+.1 ]
-
-		grids = [ (p1, p2) for p1 in pa1 for p2 in pa2 ]
-		bst = self.tuner(terms, grids)
-		#---------------------------------------------------#3/1
-		if bst[0] >= 10 : #3
-			pa1 = [ bst[0]-.1, bst[0], bst[0]+.1 ]
-		else :#1
-			pa1 = [bst[0]]
-
-		if bst[1] >= 10 :#3
-			pa2 = [ bst[1]-.1, bst[1], bst[1]+.1 ]
-		else :#1
 			pa2 = [bst[1]]
 
 		grids = [ (p1, p2) for p1 in pa1 for p2 in pa2 ]
 		bst = self.tuner(terms, grids)
-		#------------------------------------------------------
-		return bst
+		#----------------------------------------------3/1
+		if bst[0] >= 10 :
+			pa1 = [ bst[0] - 1, bst[0], bst[0] + 1 ]
+		else :#3
+			pa1 = [bst[0]]
+
+		if bst[1] >= 10 :
+			pa2 = [ bst[1] - 1, bst[1], bst[1] + 1 ]
+		else :#3
+			pa2 = [bst[1]]
+
+		grids = [ (p1, p2) for p1 in pa1 for p2 in pa2 ]
+		bst = self.tuner(terms, grids)
+		#----------------------------------------------
+		return terms, bst
 	##############################################################
+	def tune_gamma(self):
+		'''
+		This function can search for the suitable int value for one parameters, in range [0-20]
+		'''
+		terms = ['gamma']
+		#---------------------------------------5
+		grids = [ [i] for i in np.arange(1,10,2) ]
+		bst = self.tuner(terms, grids)
+		#-----------------------------------------------3
+		grids = [ [bst[0] - 1], [bst[0]], [bst[0] + 1] ]
+		bst = self.tuner(terms, grids)
+		#--------------------------------------------------
+		if bst[0] == 10 :
+			#-------------------------------------------------------5
+			# best value is 10.
+			grids = [ [i] for i in np.arange(11,20,2) ] # 5
+			bst = self.tuner(terms, grids)
+			#-----------------------------------------------3
+			grids = [ [bst[0] - 1], [bst[0]], [bst[0] + 1] ]
+			bst = self.tuner(terms, grids)
+		#----------------------------------------------[5-7]
+		if bst[0] == grids[0][0] : #5
+			grids = [ [i] for i in np.arange(bst[0], bst[0]+1, .2) ]
+		elif bst[0] == grids[1][0] : #7
+			grids = [ [i] for i in np.arange(bst[0]-.6, bst[0]+.8, .2) ]
+		else : #5
+			grids = [ [i] for i in np.arange(bst[0]-.8, bst[0]+.1, .2) ]
+
+		bst = self.tuner(terms, grids)
+		#-------------------------------------------------2-3
+		if bst[0] == 0 :
+			grids = [[bst[0]], [bst[0]+.1]]
+		else :
+			grids = [ [bst[0]-.1], [bst[0]], [bst[0]+.1] ]
+		bst = self.tuner(terms, grids)
+		#--------------------------------------------
+		return terms, bst
+	#############################################################
+	def tune_model_robustness(self) :
+		'''
+		tune two parameters to the best value in (0-1] to the second decimal point.
+		values > 0.01,0.02,...0.1,.....0.98,.099,1
+		'''
+		terms = ['subsample', 'colsample_bytree']
+		#---------------------------------------5
+		grids = [ (i,i) for i in np.arange(.1,1,.2) ]
+		bst = self.tuner(terms, grids)
+		#----------------------------------------3
+		pa1 = [ bst[0]-.1, bst[0], bst[0]+.1 ]
+		pa2 = [ bst[1]-.1, bst[1], bst[1]+.1 ]
+		# neither subsample nor colsample_bytree can be zero.
+		if pa1[0] == 0 : pa1[0] = 0.01
+		if pa2[0] == 0 : pa2[0] = 0.01
+		grids = [(p1,p2) for p1 in pa1 for p2 in pa2]
+		bst = self.tuner(terms, grids)
+		#----------------------------------------------[5-7]
+		if bst[0] == pa1[0] : #5
+			if bst[0] == 0.01 :
+				pa1 = np.arange(0.02, .1, .02)
+			else :
+				pa1 = np.arange(bst[0], bst[0]+.1, .02)
+		elif bst[0] == pa1[1] : #7
+			pa1 = np.arange(bst[0]-.06, bst[0]+.07, .02)
+		else : #5
+			pa1 = np.arange(bst[0]-.08, bst[0]+.01, .02)
+
+		if bst[1] == pa2[0] : #5
+			if bst[1] == 0.01 :
+				pa2 = np.arange(0.02, .1, .02)
+			else :
+				pa2 = np.arange(bst[1], bst[1]+.1, .02)
+		elif bst[1] == pa2[1] : #7
+			pa2 = np.arange(bst[1]-.06, bst[1]+.07, .02)
+		else : #5
+			pa2 = np.arange(bst[1]-.08, bst[1]+.01, .02)
+
+		grids = [ (p1,p2) for p1 in pa1 for p2 in pa2 ]
+		bst = self.tuner(terms, grids)
+		#----------------------------------------------3
+		pa1 = [ bst[0]-0.01, bst[0], bst[0]+0.01 ]
+		pa2 = [ bst[1]-0.01, bst[1], bst[1]+0.01 ]
+		grids = [ (p1,p2) for p1 in pa1 for p2 in pa2 ]
+		bst = self.tuner(terms, grids)
+		#------------------------------------------------
+		return terms, bst
+	###############################################################
+	def tune_regulr_terms(self, type='l2'):
+		assert type in ['l1','l2']
+		if type == 'l1' : terms = ['reg_alpha']
+		elif type == 'l2' : terms = ['reg_lambda']
+		#------------------------------------------5
+		grids = [ [i] for i in np.arange(1,10,2) ]
+		bst = self.tuner(terms, grids)
+		#-------------------------------------------3
+		grids = [ [i] for i in [bst[0]-1, bst[0], bst[0]+1] ]
+		bst = self.tuner(terms, grids)
+		#------------------------------------------4-7
+		if bst[0] == grids[0][0] :
+			grids = [ [i] for i in np.arange(bst[0], bst[0]+.7, .2) ]
+		elif bst[0] == grids[1][0] :
+			grids = [ [i] for i in np.arange(bst[0]-.6, bst[0]+.7, .2) ]
+		else :
+			grids = [ [i] for i in np.arange(bst[0]-.6, bst[0], .2) ]
+		bst = self.tuner(terms, grids)
+		#-------------------------------------------------3
+		grids = [ [i] for i in [bst[0]-.1, bst[0], bst[0]+.1 ] ]
+		bst = self.tuner(terms, grids)
+		#------------------------------------------------
+		return terms, bst
+	#################################################################
+	def tune_regulr_terms_smaller_values(self, type='l2'):
+		assert type in ['l1','l2']
+		if type == 'l1' : terms = ['reg_alpha']
+		elif type == 'l2' : terms = ['reg_lambda']
+		#------------------------------------------5
+		grids = [ [i] for i in [0, 0.0001, 0.001, 0.01, 0.1] ]
+		bst = self.tuner(terms, grids)
+		return terms, bst
+	##############################################################
+	def tune_eta(self):
+		terms = ['eta']
+		grids = [ [i] for i in [.3, .2, .1, .01, .001] ]
+		bst = self.tuner(terms, grids)
+		return terms, bst
+	################################################################
