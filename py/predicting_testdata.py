@@ -4,7 +4,7 @@ import pandas as pd
 import numpy as np
 from sklearn.preprocessing import OneHotEncoder
 seed = 2
-from xgboost import XGBClassifier
+from xgboost_training import XGBClassifier
 import pickle
 
 print "Reading test data"

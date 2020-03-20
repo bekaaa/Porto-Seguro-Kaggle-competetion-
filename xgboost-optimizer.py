@@ -1,4 +1,4 @@
-from xgboost import XGBClassifier
+from xgboost_training import XGBClassifier
 
 params = {
 
@@ -145,9 +145,6 @@ def imbalanced() :
 
 	print gsearch.best_params_,'\n' ,gsearch.best_score_
 
-= {
-
-}
 cv_params2 = {
     'scale_pos_weight': range(1,10,2)
 }

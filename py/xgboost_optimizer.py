@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 import numpy as np
-from xgboost import XGBClassifier
+from xgboost_training import XGBClassifier
 from sklearn.model_selection import GridSearchCV
 import pickle
 import log
@@ -106,14 +106,14 @@ def apply_GSearch(cv_params) :
 	return gsearch.best_params_, gsearch.best_score_
 #----------------------------------------------------------------------------------------
 def logmsg(n,v,s) :
-		log.msg( "best value for parameter : " + str(n) +
+		log.add( "best value for parameter : " + str(n) +
 		" is " + str(v) + " , with score " + str(s) )
 #--------------------------------------------------------------------------------------
 def xgboost_optimizer(trainInput, targetInput):
 
 	log.init('xgboost_optimizer.log')
-	log.msg('**************************************')
-	log.msg('log file initialized')
+	log.add('**************************************')
+	log.add('log file initialized')
 	#----------------------------------------------------------
 	global train
 	global target
@@ -152,10 +152,10 @@ def xgboost_optimizer(trainInput, targetInput):
 	logmsg(n,v,s)
 
 #----------------------------------------------------------------------------------------
-	log.msg("saving parameters to file")
+	log.add("saving parameters to file")
 	with open('../data/parameters.pkl', 'wb') as f:
 		pickle.dump(file=f, obj=params)
-	log.msg("Done.")
+	log.add("Done.")
 	log.close()
 #-------------------------------------------------------------------------------------
 if __name__ == '__main__' :

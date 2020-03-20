@@ -4,7 +4,7 @@ import numpy as np
 from sklearn.preprocessing import OneHotEncoder
 from sklearn.model_selection import train_test_split
 seed = 2
-from xgboost import XGBClassifier
+from xgboost_training import XGBClassifier
 import pickle
 
 print "reading data"

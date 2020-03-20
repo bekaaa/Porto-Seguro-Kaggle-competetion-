@@ -7,25 +7,24 @@ from logger import logger
 
 class xgb_tuner :
 	#*******************************************************************************
-	def __init__(self, dtrain, dvalid, params,
-		logging = False, log_file_index = -1, rounds=400, esrounds=50, seed=0, nfolds=3) :
+	def __init__(self, dtrain, dvalid, params, rounds=400, esrounds=50, seed=0, nfolds=3,log=None) :
 		#-------------------
 		'''
 		initiates all variables + logger
 		'''
 		self.__dtrain = dtrain
 		self.__dvalid = dvalid
-		self.__logging = logging
+		#self.__logging = logging
 		self.__rounds = rounds
 		self.__esrounds = esrounds
 		self.__nfolds = nfolds
 		self.__seed = seed
 		self.__params = params
-		self.__logger = None
+		self.__logger = log
 		self.__cvfolds = None
 		np.random.seed(self.__seed)
 		#--------------------
-		if self.__logging : self.__init_log(log_file_index)
+		#if self.__logging : self.__init_log(log_file_index)
 	#*****************************************************************************
 	def set_param(self,param,value):
 		'''
@@ -55,13 +54,15 @@ class xgb_tuner :
 		best_results = {}
 		best_results['dev_sc'] = -1
 		#----------------------------------------
-		if self.__logging : self.__logger.add('**** Starting grid-call search *********')
+		#if self.__logging : self.__logger.add('**** Starting grid-call search *********')
+		self.__logger.add('**** Starting grid-call search *********')
 		for grid in param_grid :
 			#------ set starter log message -----------------
 			msg = "CV with "
 			for i,v in enumerate(grid):
 				msg+= "%s = %g, " % (param_names[i], v)
-			if self.__logging : self.__logger.add(msg)
+			#if self.__logging :
+			self.__logger.add(msg)
 			#------------------------------------------------------------
 			#-------- call step_cv function on each grid -----------------
 			results = None
@@ -90,8 +91,9 @@ class xgb_tuner :
 					  results['f_dev_sc'],
 					  results['rounds'],
 					  results['step_time'])
-			if self.__logging : self.__logger.add(msg)
-			else : print (msg)
+			#if self.__logging :
+			self.__logger.add(msg)
+			#else : print (msg)
 			# -------------------------------------------------------
 			# ---- checking for best score and assigning some other bests ;) ---------
 			if results['dev_sc'] > best_results['dev_sc'] :
@@ -100,7 +102,8 @@ class xgb_tuner :
 			#-------------------------------------------------------------------------
 
 		#-------- last log message for grid-call search ----------------------
-		if self.__logging : self.__logger.add('****** End of grid-call search *********')
+		#if self.__logging :
+		self.__logger.add('****** End of grid-call search *********')
 		msg =   'best dev score : %g, '\
 				'best fold-train score : %g, '\
 				'best fold-dev score : %g, '\
@@ -113,7 +116,8 @@ class xgb_tuner :
 		for i,v in enumerate(best_results['grid']) :
 			msg += 'best %s = %g, ' % (param_names[i], v)
 		msg += '\n-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*\n'
-		if self.__logging : self.__logger.add(msg)
+		#if self.__logging :
+		self.__logger.add(msg)
 		print (msg)
 		#---------------------------------------------------------------------------
 		return best_results, all_results
