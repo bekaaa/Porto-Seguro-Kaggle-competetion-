@@ -145,6 +145,7 @@ class xgb_tuner :
 						fpreproc=self.__fpreproc,
 						verbose_eval = False,
 						callbacks=[self.__GetBestCVFolds()]
+						#nthread=-1
 						)
 		#-----------------------
 		# predict dev-set and get it's gini score

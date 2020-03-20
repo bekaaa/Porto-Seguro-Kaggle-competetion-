@@ -1,5 +1,6 @@
 import numpy as np
 import pandas as pd
+import xgboost as xgb
 from xgb_tuner import xgb_tuner
 import pickle
 from logger import logger
@@ -22,15 +23,17 @@ params = {
 seed = 0
 # initializing logger object
 log_index = 1
-log = logger('tuning_params-' + str(log_index) + '.log','./logs')
+log = logger('tuning_params-' + str(log_index) + '.log','./logs/')
 log.add('**********************')
 log.add('*** log file initialized ********')
 
 # loading data
-with open('./data/dtrain.pkl', 'rb') as f:
-    dtrain = pickle.load(f)
-with open('./data/dvalid.pkl', 'rb') as f:
-    dvalid = pickle.load(f)
+#with open('./data/dtrain.pkl', 'rb') as f:
+#    dtrain = pickle.load(f)
+#with open('./data/dvalid.pkl', 'rb') as f:
+#    dvalid = pickle.load(f)
+dtrain = xgb.DMatrix('./data/train.buffer')
+dvalid = xgb.DMatrix('./data/valid.buffer')
 log.add('data has been loaded.')
 
 rounds = 800
